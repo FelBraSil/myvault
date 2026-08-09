@@ -8,16 +8,38 @@
         body { font-family: sans-serif; padding: 2rem; background: #121212; color: #fff; }
         h1 { color: #bb86fc; }
         ul { list-style: none; padding: 0; }
-        li { margin: 1rem 0; background: #1e1e1e; padding: 1rem; border-radius: 8px; }
-        a { color: #03dac6; text-decoration: none; font-size: 1.2rem; }
+        li { margin: 1rem 0; background: #1e1e1e; padding: 1rem; border-radius: 8px; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+        a { color: #03dac6; text-decoration: none; font-size: 1.1rem; flex: 1; min-width: 250px; }
         a:hover { text-decoration: underline; }
+        button { background: #bb86fc; color: #000; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        button:hover { background: #9965f4; }
+        audio { height: 36px; outline: none; }
     </style>
 </head>
 <body>
     <h1>My Vault</h1>
     <ul>
-        <li><a href="Dancing%20In%20The%20Dark%20(battle%20remix).mp3">Dancing In The Dark (battle remix).mp3</a></li>
-        <li><a href="Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3">Dancing In The Dark (fanfarre remix).mp3</a></li>
+        <li>
+            <a href="Dancing%20In%20The%20Dark%20(battle%20remix).mp3">Dancing In The Dark (battle remix)</a>
+            <audio controls src="Dancing%20In%20The%20Dark%20(battle%20remix).mp3"></audio>
+            <button onclick="copyToClipboard('Dancing%20In%20The%20Dark%20(battle%20remix).mp3')">Copy Link</button>
+        </li>
+        <li>
+            <a href="Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3">Dancing In The Dark (fanfarre remix)</a>
+            <audio controls src="Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3"></audio>
+            <button onclick="copyToClipboard('Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3')">Copy Link</button>
+        </li>
     </ul>
+
+    <script>
+        function copyToClipboard(filename) {
+            const url = window.location.href.split('/').slice(0, -1).join('/') + '/' + filename;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('Copied to clipboard!');
+            }).catch(err => {
+                console.error('Error copying link: ', err);
+            });
+        }
+    </script>
 </body>
 </html>
