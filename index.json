@@ -28,5 +28,35 @@
     "name": "Dancing In The Lounge",
     "type": "audio",
     "url": "audio/Dancing%20In%20The%20Lounge.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-6",
+    "name": "Dancing In The Crypt",
+    "type": "audio",
+    "url": "audio/Dancing%20In%20The%20Crypt.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-7",
+    "name": "Dancing In The Empty Hall",
+    "type": "audio",
+    "url": "audio/Dancing%20In%20The%20Empty%20Hall.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-8",
+    "name": "Dancing In The Solitude",
+    "type": "audio",
+    "url": "audio/Dancing%20In%20The%20Solitude.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-9",
+    "name": "Dancing In The Tombs",
+    "type": "audio",
+    "url": "audio/Dancing%20In%20The%20Tombs.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-10",
+    "name": "Dancing In The Victory",
+    "type": "audio",
+    "url": "audio/Dancing%20In%20The%20Victory.mp3"
   }
 ]
