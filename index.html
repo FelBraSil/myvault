@@ -9,52 +9,77 @@
         h1 { color: #bb86fc; }
         ul { list-style: none; padding: 0; }
         li { margin: 1rem 0; background: #1e1e1e; padding: 1rem; border-radius: 8px; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-        a { color: #03dac6; text-decoration: none; font-size: 1.1rem; flex: 1; min-width: 250px; }
+        a { color: #03dac6; text-decoration: none; font-size: 1.1rem; flex: 1; min-width: 200px; }
         a:hover { text-decoration: underline; }
         button { background: #bb86fc; color: #000; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
         button:hover { background: #9965f4; }
-        audio { height: 36px; outline: none; }
+        audio, img, video { outline: none; max-width: 100%; max-height: 200px; }
+        audio { height: 36px; width: 100%; }
+        .media-container { flex: 2; min-width: 250px; }
     </style>
 </head>
 <body>
     <h1>My Vault</h1>
-    <ul>
-        <li>
-            <a href="Dancing%20In%20The%20Chill.mp3">Dancing In The Chill</a>
-            <audio controls src="Dancing%20In%20The%20Chill.mp3"></audio>
-            <button onclick="copyToClipboard('Dancing%20In%20The%20Chill.mp3')">Copy Link</button>
-        </li>
-        <li>
-            <a href="Dancing%20In%20The%20Dark%20(battle%20remix).mp3">Dancing In The Dark (battle remix)</a>
-            <audio controls src="Dancing%20In%20The%20Dark%20(battle%20remix).mp3"></audio>
-            <button onclick="copyToClipboard('Dancing%20In%20The%20Dark%20(battle%20remix).mp3')">Copy Link</button>
-        </li>
-        <li>
-            <a href="Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3">Dancing In The Dark (fanfarre remix)</a>
-            <audio controls src="Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3"></audio>
-            <button onclick="copyToClipboard('Dancing%20In%20The%20Dark%20(fanfarre%20remix).mp3')">Copy Link</button>
-        </li>
-        <li>
-            <a href="Dancing%20In%20The%20Dark.mp3">Dancing In The Dark</a>
-            <audio controls src="Dancing%20In%20The%20Dark.mp3"></audio>
-            <button onclick="copyToClipboard('Dancing%20In%20The%20Dark.mp3')">Copy Link</button>
-        </li>
-        <li>
-            <a href="Dancing%20In%20The%20Lounge.mp3">Dancing In The Lounge</a>
-            <audio controls src="Dancing%20In%20The%20Lounge.mp3"></audio>
-            <button onclick="copyToClipboard('Dancing%20In%20The%20Lounge.mp3')">Copy Link</button>
-        </li>
-    </ul>
+    <ul id="vault-list"></ul>
 
     <script>
-        function copyToClipboard(filename) {
-            const url = window.location.href.split('/').slice(0, -1).join('/') + '/' + filename;
-            navigator.clipboard.writeText(url).then(() => {
+        const baseUrl = "https://felbrasil.github.io/myvault/";
+
+        function copyToClipboard(url) {
+            const fullUrl = url.startsWith('http') ? url : baseUrl + url;
+            navigator.clipboard.writeText(fullUrl).then(() => {
                 alert('Copied to clipboard!');
             }).catch(err => {
                 console.error('Error copying link: ', err);
             });
         }
+
+        async function loadVault() {
+            try {
+                const response = await fetch('index.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                const items = await response.json();
+                const list = document.getElementById('vault-list');
+
+                items.forEach(item => {
+                    const li = document.createElement('li');
+                    
+                    const link = document.createElement('a');
+                    link.href = item.url;
+                    link.textContent = item.name;
+                    link.target = "_blank";
+                    
+                    const mediaContainer = document.createElement('div');
+                    mediaContainer.className = 'media-container';
+                    
+                    if (item.type === 'audio') {
+                        const audio = document.createElement('audio');
+                        audio.controls = true;
+                        audio.src = item.url;
+                        mediaContainer.appendChild(audio);
+                    } else if (item.type === 'image') {
+                        const img = document.createElement('img');
+                        img.src = item.url;
+                        img.alt = item.name;
+                        mediaContainer.appendChild(img);
+                    }
+
+                    const copyBtn = document.createElement('button');
+                    copyBtn.textContent = 'Copy Link';
+                    copyBtn.onclick = () => copyToClipboard(item.url);
+
+                    li.appendChild(link);
+                    li.appendChild(mediaContainer);
+                    li.appendChild(copyBtn);
+                    list.appendChild(li);
+                });
+            } catch (err) {
+                console.error("Failed to load vault data", err);
+                document.getElementById('vault-list').innerHTML = "<li>Error loading files. Make sure index.json exists.</li>";
+            }
+        }
+
+        loadVault();
     </script>
 </body>
 </html>
