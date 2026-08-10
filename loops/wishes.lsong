@@ -1,0 +1,578 @@
+{
+  "timeSignature": 4,
+  "tempo": 80,
+  "volume": 0.57,
+  "pitchShift": 1,
+  "reverb": 0.65,
+  "intro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "soft-strings",
+        "volume": 0.42,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 19,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 23,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 28,
+            "start": 0,
+            "duration": 32
+          }
+        ]
+      },
+      {
+        "instrument": "grand-piano",
+        "volume": 0.7,
+        "notes": [
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 8
+          },
+          {
+            "pitch": 31,
+            "start": 8,
+            "duration": 8
+          },
+          {
+            "pitch": 35,
+            "start": 16,
+            "duration": 8
+          },
+          {
+            "pitch": 40,
+            "start": 24,
+            "duration": 8
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": 31,
+            "start": 16,
+            "duration": 16
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "ride",
+          "position": 0
+        },
+        {
+          "element": "perc",
+          "position": 16
+        }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "soft-strings",
+        "volume": 0.45,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 19,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 23,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 28,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 9,
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": 16,
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": 19,
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": 24,
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": 5,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 12,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 16,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 21,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 7,
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": 14,
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": 17,
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": 23,
+            "start": 48,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "grand-piano",
+        "volume": 0.9,
+        "notes": [
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 2,
+            "duration": 2
+          },
+          {
+            "pitch": 35,
+            "start": 4,
+            "duration": 2
+          },
+          {
+            "pitch": 40,
+            "start": 6,
+            "duration": 6
+          },
+          {
+            "pitch": 38,
+            "start": 12,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 14,
+            "duration": 2
+          },
+          {
+            "pitch": 21,
+            "start": 16,
+            "duration": 2
+          },
+          {
+            "pitch": 28,
+            "start": 18,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 20,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 22,
+            "duration": 6
+          },
+          {
+            "pitch": 35,
+            "start": 28,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 30,
+            "duration": 2
+          },
+          {
+            "pitch": 17,
+            "start": 32,
+            "duration": 2
+          },
+          {
+            "pitch": 24,
+            "start": 34,
+            "duration": 2
+          },
+          {
+            "pitch": 28,
+            "start": 36,
+            "duration": 2
+          },
+          {
+            "pitch": 33,
+            "start": 38,
+            "duration": 6
+          },
+          {
+            "pitch": 31,
+            "start": 44,
+            "duration": 2
+          },
+          {
+            "pitch": 28,
+            "start": 46,
+            "duration": 2
+          },
+          {
+            "pitch": 19,
+            "start": 48,
+            "duration": 2
+          },
+          {
+            "pitch": 26,
+            "start": 50,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 52,
+            "duration": 2
+          },
+          {
+            "pitch": 35,
+            "start": 54,
+            "duration": 6
+          },
+          {
+            "pitch": 36,
+            "start": 60,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 62,
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "instrument": "acoustic-guitar",
+        "volume": 0.6,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 8
+          },
+          {
+            "pitch": 19,
+            "start": 8,
+            "duration": 8
+          },
+          {
+            "pitch": 9,
+            "start": 16,
+            "duration": 8
+          },
+          {
+            "pitch": 16,
+            "start": 24,
+            "duration": 8
+          },
+          {
+            "pitch": 5,
+            "start": 32,
+            "duration": 8
+          },
+          {
+            "pitch": 12,
+            "start": 40,
+            "duration": 8
+          },
+          {
+            "pitch": 7,
+            "start": 48,
+            "duration": 8
+          },
+          {
+            "pitch": 14,
+            "start": 56,
+            "duration": 8
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.45,
+        "notes": [
+          {
+            "pitch": 31,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 33,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 31,
+            "start": 48,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "flute",
+        "volume": 0.75,
+        "notes": [
+          {
+            "pitch": 45,
+            "start": 32,
+            "duration": 8
+          },
+          {
+            "pitch": 43,
+            "start": 40,
+            "duration": 8
+          },
+          {
+            "pitch": 41,
+            "start": 48,
+            "duration": 8
+          },
+          {
+            "pitch": 38,
+            "start": 56,
+            "duration": 8
+          }
+        ]
+      },
+      {
+        "instrument": "sine",
+        "volume": 0.3,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": -3,
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": -7,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": -5,
+            "start": 48,
+            "duration": 16
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "kick",
+          "position": 0
+        },
+        {
+          "element": "ride",
+          "position": 0
+        },
+        {
+          "element": "perc",
+          "position": 8
+        },
+        {
+          "element": "ride",
+          "position": 16
+        },
+        {
+          "element": "perc",
+          "position": 24
+        },
+        {
+          "element": "kick",
+          "position": 32
+        },
+        {
+          "element": "ride",
+          "position": 32
+        },
+        {
+          "element": "perc",
+          "position": 40
+        },
+        {
+          "element": "ride",
+          "position": 48
+        },
+        {
+          "element": "perc",
+          "position": 56
+        }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "soft-strings",
+        "volume": 0.47,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 19,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 23,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 28,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 38,
+            "start": 0,
+            "duration": 32
+          }
+        ]
+      },
+      {
+        "instrument": "grand-piano",
+        "volume": 0.8,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 31,
+            "start": 2,
+            "duration": 30
+          },
+          {
+            "pitch": 35,
+            "start": 4,
+            "duration": 28
+          },
+          {
+            "pitch": 38,
+            "start": 6,
+            "duration": 26
+          },
+          {
+            "pitch": 40,
+            "start": 8,
+            "duration": 24
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.4,
+        "notes": [
+          {
+            "pitch": 31,
+            "start": 0,
+            "duration": 32
+          }
+        ]
+      },
+      {
+        "instrument": "flute",
+        "volume": 0.6,
+        "notes": [
+          {
+            "pitch": 40,
+            "start": 0,
+            "duration": 32
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "crash",
+          "position": 0
+        },
+        {
+          "element": "kick",
+          "position": 0
+        }
+      ]
+    }
+  },
+  "effects": {
+    "reverb": {
+      "mix": 0.65
+    }
+  }
+}

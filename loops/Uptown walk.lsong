@@ -1,0 +1,2192 @@
+{
+  "timeSignature": 4,
+  "tempo": 90,
+  "volume": 0.85,
+  "pitchShift": 1,
+  "reverb": 0.2,
+  "intro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "electric-guitar",
+        "volume": 0.6,
+        "notes": [
+          {
+            "pitch": 29,
+            "start": 2,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 2,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 2,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 10,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 10,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 10,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 14,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 14,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 14,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 18,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 18,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 18,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 26,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 26,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 26,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 30,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 30,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 30,
+            "duration": 1
+          }
+        ]
+      },
+      {
+        "instrument": "slap",
+        "volume": 0.95,
+        "notes": [
+          {
+            "pitch": 2,
+            "start": 0,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 3,
+            "duration": 1
+          },
+          {
+            "pitch": 14,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 12,
+            "start": 8,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 14,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 16,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 19,
+            "duration": 1
+          },
+          {
+            "pitch": 7,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 5,
+            "start": 24,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 30,
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "instrument": "brass",
+        "volume": 0.7,
+        "notes": [
+          {
+            "pitch": 31,
+            "start": 28,
+            "duration": 4
+          },
+          {
+            "pitch": 35,
+            "start": 28,
+            "duration": 4
+          },
+          {
+            "pitch": 38,
+            "start": 28,
+            "duration": 4
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "kick",
+          "position": 0
+        },
+        {
+          "element": "crash",
+          "position": 0
+        },
+        {
+          "element": "hihat",
+          "position": 2
+        },
+        {
+          "element": "snare",
+          "position": 4
+        },
+        {
+          "element": "clap",
+          "position": 4
+        },
+        {
+          "element": "hihat",
+          "position": 6
+        },
+        {
+          "element": "kick",
+          "position": 8
+        },
+        {
+          "element": "hihat",
+          "position": 10
+        },
+        {
+          "element": "snare",
+          "position": 12
+        },
+        {
+          "element": "clap",
+          "position": 12
+        },
+        {
+          "element": "kick",
+          "position": 14
+        },
+        {
+          "element": "kick",
+          "position": 16
+        },
+        {
+          "element": "hihatOpen",
+          "position": 16
+        },
+        {
+          "element": "hihat",
+          "position": 18
+        },
+        {
+          "element": "snare",
+          "position": 20
+        },
+        {
+          "element": "clap",
+          "position": 20
+        },
+        {
+          "element": "hihat",
+          "position": 22
+        },
+        {
+          "element": "kick",
+          "position": 24
+        },
+        {
+          "element": "hihat",
+          "position": 26
+        },
+        {
+          "element": "snare",
+          "position": 28
+        },
+        {
+          "element": "clap",
+          "position": 28
+        },
+        {
+          "element": "kick",
+          "position": 30
+        }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 8,
+    "instrumentLines": [
+      {
+        "instrument": "electric-guitar",
+        "volume": 0.65,
+        "notes": [
+          {
+            "pitch": 29,
+            "start": 2,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 2,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 2,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 10,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 10,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 10,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 14,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 14,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 14,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 18,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 18,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 18,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 26,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 26,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 26,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 30,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 30,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 30,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 34,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 34,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 34,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 38,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 38,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 38,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 42,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 42,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 42,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 46,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 46,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 46,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 50,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 50,
+            "duration": 1
+          },
+          {
+            "pitch": 40,
+            "start": 50,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 54,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 54,
+            "duration": 1
+          },
+          {
+            "pitch": 40,
+            "start": 54,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 58,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 58,
+            "duration": 1
+          },
+          {
+            "pitch": 40,
+            "start": 58,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 62,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 62,
+            "duration": 1
+          },
+          {
+            "pitch": 40,
+            "start": 62,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 66,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 66,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 66,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 70,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 70,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 70,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 74,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 74,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 74,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 78,
+            "duration": 1
+          },
+          {
+            "pitch": 33,
+            "start": 78,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 78,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 82,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 82,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 82,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 86,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 86,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 86,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 90,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 90,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 90,
+            "duration": 1
+          },
+          {
+            "pitch": 29,
+            "start": 94,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 94,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 94,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 98,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 98,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 98,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 102,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 102,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 102,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 106,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 106,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 106,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 110,
+            "duration": 1
+          },
+          {
+            "pitch": 35,
+            "start": 110,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 110,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 114,
+            "duration": 1
+          },
+          {
+            "pitch": 34,
+            "start": 114,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 114,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 118,
+            "duration": 1
+          },
+          {
+            "pitch": 34,
+            "start": 118,
+            "duration": 1
+          },
+          {
+            "pitch": 38,
+            "start": 118,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 122,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 122,
+            "duration": 1
+          },
+          {
+            "pitch": 40,
+            "start": 122,
+            "duration": 1
+          },
+          {
+            "pitch": 31,
+            "start": 126,
+            "duration": 1
+          },
+          {
+            "pitch": 36,
+            "start": 126,
+            "duration": 1
+          },
+          {
+            "pitch": 40,
+            "start": 126,
+            "duration": 1
+          }
+        ]
+      },
+      {
+        "instrument": "slap",
+        "volume": 1,
+        "notes": [
+          {
+            "pitch": 2,
+            "start": 0,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 3,
+            "duration": 1
+          },
+          {
+            "pitch": 14,
+            "start": 6,
+            "duration": 1
+          },
+          {
+            "pitch": 12,
+            "start": 8,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 14,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 16,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 19,
+            "duration": 1
+          },
+          {
+            "pitch": 7,
+            "start": 22,
+            "duration": 1
+          },
+          {
+            "pitch": 5,
+            "start": 24,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 30,
+            "duration": 2
+          },
+          {
+            "pitch": -8,
+            "start": 32,
+            "duration": 2
+          },
+          {
+            "pitch": -8,
+            "start": 35,
+            "duration": 1
+          },
+          {
+            "pitch": 4,
+            "start": 38,
+            "duration": 1
+          },
+          {
+            "pitch": 2,
+            "start": 40,
+            "duration": 2
+          },
+          {
+            "pitch": -8,
+            "start": 46,
+            "duration": 2
+          },
+          {
+            "pitch": -3,
+            "start": 48,
+            "duration": 2
+          },
+          {
+            "pitch": -3,
+            "start": 51,
+            "duration": 1
+          },
+          {
+            "pitch": 9,
+            "start": 54,
+            "duration": 1
+          },
+          {
+            "pitch": 7,
+            "start": 56,
+            "duration": 2
+          },
+          {
+            "pitch": -3,
+            "start": 62,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 64,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 67,
+            "duration": 1
+          },
+          {
+            "pitch": 14,
+            "start": 70,
+            "duration": 1
+          },
+          {
+            "pitch": 12,
+            "start": 72,
+            "duration": 2
+          },
+          {
+            "pitch": 2,
+            "start": 78,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 80,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 83,
+            "duration": 1
+          },
+          {
+            "pitch": 7,
+            "start": 86,
+            "duration": 1
+          },
+          {
+            "pitch": 5,
+            "start": 88,
+            "duration": 2
+          },
+          {
+            "pitch": -5,
+            "start": 94,
+            "duration": 2
+          },
+          {
+            "pitch": -8,
+            "start": 96,
+            "duration": 2
+          },
+          {
+            "pitch": -8,
+            "start": 99,
+            "duration": 1
+          },
+          {
+            "pitch": 4,
+            "start": 102,
+            "duration": 1
+          },
+          {
+            "pitch": 2,
+            "start": 104,
+            "duration": 2
+          },
+          {
+            "pitch": -8,
+            "start": 110,
+            "duration": 2
+          },
+          {
+            "pitch": 0,
+            "start": 112,
+            "duration": 2
+          },
+          {
+            "pitch": 12,
+            "start": 116,
+            "duration": 2
+          },
+          {
+            "pitch": 10,
+            "start": 120,
+            "duration": 2
+          },
+          {
+            "pitch": 7,
+            "start": 124,
+            "duration": 2
+          },
+          {
+            "pitch": 5,
+            "start": 126,
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "instrument": "piano",
+        "volume": 0.8,
+        "notes": [
+          {
+            "pitch": 17,
+            "start": 0,
+            "duration": 6
+          },
+          {
+            "pitch": 21,
+            "start": 0,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 8,
+            "duration": 6
+          },
+          {
+            "pitch": 21,
+            "start": 8,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 8,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 16,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 16,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 16,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 24,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 24,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 24,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 32,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 32,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 32,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 40,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 40,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 40,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 48,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 48,
+            "duration": 6
+          },
+          {
+            "pitch": 28,
+            "start": 48,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 56,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 56,
+            "duration": 6
+          },
+          {
+            "pitch": 28,
+            "start": 56,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 64,
+            "duration": 6
+          },
+          {
+            "pitch": 21,
+            "start": 64,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 64,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 72,
+            "duration": 6
+          },
+          {
+            "pitch": 21,
+            "start": 72,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 72,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 80,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 80,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 80,
+            "duration": 6
+          },
+          {
+            "pitch": 17,
+            "start": 88,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 88,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 88,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 96,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 96,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 96,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 104,
+            "duration": 6
+          },
+          {
+            "pitch": 23,
+            "start": 104,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 104,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 112,
+            "duration": 6
+          },
+          {
+            "pitch": 22,
+            "start": 112,
+            "duration": 6
+          },
+          {
+            "pitch": 26,
+            "start": 112,
+            "duration": 6
+          },
+          {
+            "pitch": 29,
+            "start": 112,
+            "duration": 6
+          },
+          {
+            "pitch": 19,
+            "start": 120,
+            "duration": 6
+          },
+          {
+            "pitch": 22,
+            "start": 120,
+            "duration": 6
+          },
+          {
+            "pitch": 24,
+            "start": 120,
+            "duration": 6
+          },
+          {
+            "pitch": 28,
+            "start": 120,
+            "duration": 6
+          }
+        ]
+      },
+      {
+        "instrument": "flute",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": 41,
+            "start": 0,
+            "duration": 2
+          },
+          {
+            "pitch": 43,
+            "start": 4,
+            "duration": 2
+          },
+          {
+            "pitch": 45,
+            "start": 8,
+            "duration": 2
+          },
+          {
+            "pitch": 48,
+            "start": 12,
+            "duration": 4
+          },
+          {
+            "pitch": 47,
+            "start": 16,
+            "duration": 2
+          },
+          {
+            "pitch": 43,
+            "start": 20,
+            "duration": 2
+          },
+          {
+            "pitch": 41,
+            "start": 24,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 28,
+            "duration": 4
+          },
+          {
+            "pitch": 43,
+            "start": 32,
+            "duration": 2
+          },
+          {
+            "pitch": 45,
+            "start": 36,
+            "duration": 2
+          },
+          {
+            "pitch": 47,
+            "start": 40,
+            "duration": 2
+          },
+          {
+            "pitch": 50,
+            "start": 44,
+            "duration": 4
+          },
+          {
+            "pitch": 48,
+            "start": 48,
+            "duration": 4
+          },
+          {
+            "pitch": 45,
+            "start": 52,
+            "duration": 4
+          },
+          {
+            "pitch": 43,
+            "start": 56,
+            "duration": 2
+          },
+          {
+            "pitch": 40,
+            "start": 60,
+            "duration": 4
+          },
+          {
+            "pitch": 45,
+            "start": 64,
+            "duration": 4
+          },
+          {
+            "pitch": 48,
+            "start": 68,
+            "duration": 4
+          },
+          {
+            "pitch": 50,
+            "start": 72,
+            "duration": 4
+          },
+          {
+            "pitch": 53,
+            "start": 76,
+            "duration": 4
+          },
+          {
+            "pitch": 52,
+            "start": 80,
+            "duration": 4
+          },
+          {
+            "pitch": 48,
+            "start": 84,
+            "duration": 4
+          },
+          {
+            "pitch": 45,
+            "start": 88,
+            "duration": 4
+          },
+          {
+            "pitch": 43,
+            "start": 92,
+            "duration": 4
+          },
+          {
+            "pitch": 45,
+            "start": 96,
+            "duration": 4
+          },
+          {
+            "pitch": 43,
+            "start": 100,
+            "duration": 4
+          },
+          {
+            "pitch": 41,
+            "start": 104,
+            "duration": 4
+          },
+          {
+            "pitch": 38,
+            "start": 108,
+            "duration": 4
+          },
+          {
+            "pitch": 36,
+            "start": 112,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 114,
+            "duration": 2
+          },
+          {
+            "pitch": 41,
+            "start": 116,
+            "duration": 2
+          },
+          {
+            "pitch": 43,
+            "start": 118,
+            "duration": 2
+          },
+          {
+            "pitch": 45,
+            "start": 120,
+            "duration": 2
+          },
+          {
+            "pitch": 48,
+            "start": 122,
+            "duration": 2
+          },
+          {
+            "pitch": 50,
+            "start": 124,
+            "duration": 4
+          }
+        ]
+      },
+      {
+        "instrument": "brass",
+        "volume": 0.75,
+        "notes": [
+          {
+            "pitch": 29,
+            "start": 12,
+            "duration": 2
+          },
+          {
+            "pitch": 33,
+            "start": 12,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 12,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 28,
+            "duration": 2
+          },
+          {
+            "pitch": 35,
+            "start": 28,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 28,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 44,
+            "duration": 2
+          },
+          {
+            "pitch": 35,
+            "start": 44,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 44,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 60,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 60,
+            "duration": 2
+          },
+          {
+            "pitch": 40,
+            "start": 60,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 76,
+            "duration": 2
+          },
+          {
+            "pitch": 33,
+            "start": 76,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 76,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 92,
+            "duration": 2
+          },
+          {
+            "pitch": 35,
+            "start": 92,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 92,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 108,
+            "duration": 2
+          },
+          {
+            "pitch": 35,
+            "start": 108,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 108,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 116,
+            "duration": 2
+          },
+          {
+            "pitch": 34,
+            "start": 116,
+            "duration": 2
+          },
+          {
+            "pitch": 38,
+            "start": 116,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 124,
+            "duration": 4
+          },
+          {
+            "pitch": 36,
+            "start": 124,
+            "duration": 4
+          },
+          {
+            "pitch": 40,
+            "start": 124,
+            "duration": 4
+          }
+        ]
+      },
+      {
+        "instrument": "retro-strings",
+        "volume": 0.35,
+        "notes": [
+          {
+            "pitch": 17,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 21,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 32
+          },
+          {
+            "pitch": 19,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 23,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 26,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": 19,
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": 24,
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": 28,
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": 17,
+            "start": 64,
+            "duration": 32
+          },
+          {
+            "pitch": 21,
+            "start": 64,
+            "duration": 32
+          },
+          {
+            "pitch": 24,
+            "start": 64,
+            "duration": 32
+          },
+          {
+            "pitch": 19,
+            "start": 96,
+            "duration": 16
+          },
+          {
+            "pitch": 23,
+            "start": 96,
+            "duration": 16
+          },
+          {
+            "pitch": 26,
+            "start": 96,
+            "duration": 16
+          },
+          {
+            "pitch": 19,
+            "start": 112,
+            "duration": 16
+          },
+          {
+            "pitch": 22,
+            "start": 112,
+            "duration": 16
+          },
+          {
+            "pitch": 24,
+            "start": 112,
+            "duration": 16
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "kick",
+          "position": 0
+        },
+        {
+          "element": "ride",
+          "position": 0
+        },
+        {
+          "element": "hihat",
+          "position": 2
+        },
+        {
+          "element": "snare",
+          "position": 4
+        },
+        {
+          "element": "clap",
+          "position": 4
+        },
+        {
+          "element": "hihat",
+          "position": 6
+        },
+        {
+          "element": "kick",
+          "position": 8
+        },
+        {
+          "element": "ride",
+          "position": 8
+        },
+        {
+          "element": "hihat",
+          "position": 10
+        },
+        {
+          "element": "snare",
+          "position": 12
+        },
+        {
+          "element": "clap",
+          "position": 12
+        },
+        {
+          "element": "kick",
+          "position": 14
+        },
+        {
+          "element": "kick",
+          "position": 16
+        },
+        {
+          "element": "hihatOpen",
+          "position": 16
+        },
+        {
+          "element": "hihat",
+          "position": 18
+        },
+        {
+          "element": "snare",
+          "position": 20
+        },
+        {
+          "element": "clap",
+          "position": 20
+        },
+        {
+          "element": "hihat",
+          "position": 22
+        },
+        {
+          "element": "kick",
+          "position": 24
+        },
+        {
+          "element": "ride",
+          "position": 24
+        },
+        {
+          "element": "hihat",
+          "position": 26
+        },
+        {
+          "element": "snare",
+          "position": 28
+        },
+        {
+          "element": "clap",
+          "position": 28
+        },
+        {
+          "element": "kick",
+          "position": 30
+        },
+        {
+          "element": "kick",
+          "position": 32
+        },
+        {
+          "element": "ride",
+          "position": 32
+        },
+        {
+          "element": "hihat",
+          "position": 34
+        },
+        {
+          "element": "snare",
+          "position": 36
+        },
+        {
+          "element": "clap",
+          "position": 36
+        },
+        {
+          "element": "hihat",
+          "position": 38
+        },
+        {
+          "element": "kick",
+          "position": 40
+        },
+        {
+          "element": "ride",
+          "position": 40
+        },
+        {
+          "element": "hihat",
+          "position": 42
+        },
+        {
+          "element": "snare",
+          "position": 44
+        },
+        {
+          "element": "clap",
+          "position": 44
+        },
+        {
+          "element": "kick",
+          "position": 46
+        },
+        {
+          "element": "kick",
+          "position": 48
+        },
+        {
+          "element": "hihatOpen",
+          "position": 48
+        },
+        {
+          "element": "hihat",
+          "position": 50
+        },
+        {
+          "element": "snare",
+          "position": 52
+        },
+        {
+          "element": "clap",
+          "position": 52
+        },
+        {
+          "element": "hihat",
+          "position": 54
+        },
+        {
+          "element": "kick",
+          "position": 56
+        },
+        {
+          "element": "ride",
+          "position": 56
+        },
+        {
+          "element": "hihat",
+          "position": 58
+        },
+        {
+          "element": "snare",
+          "position": 60
+        },
+        {
+          "element": "clap",
+          "position": 60
+        },
+        {
+          "element": "kick",
+          "position": 62
+        },
+        {
+          "element": "kick",
+          "position": 64
+        },
+        {
+          "element": "ride",
+          "position": 64
+        },
+        {
+          "element": "hihat",
+          "position": 66
+        },
+        {
+          "element": "snare",
+          "position": 68
+        },
+        {
+          "element": "clap",
+          "position": 68
+        },
+        {
+          "element": "hihat",
+          "position": 70
+        },
+        {
+          "element": "kick",
+          "position": 72
+        },
+        {
+          "element": "ride",
+          "position": 72
+        },
+        {
+          "element": "hihat",
+          "position": 74
+        },
+        {
+          "element": "snare",
+          "position": 76
+        },
+        {
+          "element": "clap",
+          "position": 76
+        },
+        {
+          "element": "kick",
+          "position": 78
+        },
+        {
+          "element": "kick",
+          "position": 80
+        },
+        {
+          "element": "hihatOpen",
+          "position": 80
+        },
+        {
+          "element": "hihat",
+          "position": 82
+        },
+        {
+          "element": "snare",
+          "position": 84
+        },
+        {
+          "element": "clap",
+          "position": 84
+        },
+        {
+          "element": "hihat",
+          "position": 86
+        },
+        {
+          "element": "kick",
+          "position": 88
+        },
+        {
+          "element": "ride",
+          "position": 88
+        },
+        {
+          "element": "hihat",
+          "position": 90
+        },
+        {
+          "element": "snare",
+          "position": 92
+        },
+        {
+          "element": "clap",
+          "position": 92
+        },
+        {
+          "element": "kick",
+          "position": 94
+        },
+        {
+          "element": "kick",
+          "position": 96
+        },
+        {
+          "element": "ride",
+          "position": 96
+        },
+        {
+          "element": "hihat",
+          "position": 98
+        },
+        {
+          "element": "snare",
+          "position": 100
+        },
+        {
+          "element": "clap",
+          "position": 100
+        },
+        {
+          "element": "hihat",
+          "position": 102
+        },
+        {
+          "element": "kick",
+          "position": 104
+        },
+        {
+          "element": "ride",
+          "position": 104
+        },
+        {
+          "element": "hihat",
+          "position": 106
+        },
+        {
+          "element": "snare",
+          "position": 108
+        },
+        {
+          "element": "clap",
+          "position": 108
+        },
+        {
+          "element": "kick",
+          "position": 110
+        },
+        {
+          "element": "kick",
+          "position": 112
+        },
+        {
+          "element": "hihatOpen",
+          "position": 112
+        },
+        {
+          "element": "hihat",
+          "position": 114
+        },
+        {
+          "element": "snare",
+          "position": 116
+        },
+        {
+          "element": "clap",
+          "position": 116
+        },
+        {
+          "element": "hihat",
+          "position": 118
+        },
+        {
+          "element": "kick",
+          "position": 120
+        },
+        {
+          "element": "snare",
+          "position": 120
+        },
+        {
+          "element": "clap",
+          "position": 120
+        },
+        {
+          "element": "snare",
+          "position": 122
+        },
+        {
+          "element": "tom",
+          "position": 124
+        },
+        {
+          "element": "tom",
+          "position": 125
+        },
+        {
+          "element": "tom",
+          "position": 126
+        }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 1,
+    "instrumentLines": [
+      {
+        "instrument": "piano",
+        "volume": 0.67,
+        "notes": [
+          {
+            "pitch": 14,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 17,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 21,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 28,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "electric-guitar",
+        "volume": 0.46,
+        "notes": [
+          {
+            "pitch": 26,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 29,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 33,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 36,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "slap",
+        "volume": 0.56,
+        "notes": [
+          {
+            "pitch": 2,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "flute",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": 38,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "retro-strings",
+        "volume": 0.4,
+        "notes": [
+          {
+            "pitch": 14,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 17,
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": 21,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "kick",
+          "position": 0
+        },
+        {
+          "element": "crash",
+          "position": 0
+        }
+      ]
+    }
+  },
+  "effects": {
+    "reverb": {
+      "mix": 0.2
+    }
+  }
+}

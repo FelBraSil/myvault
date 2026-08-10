@@ -82,5 +82,83 @@
     "name": "Gives me the Chills",
     "type": "loop",
     "url": "loops/Gives%20me%20the%20Chills.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-5",
+    "name": "h-hello?",
+    "type": "loop",
+    "url": "loops/h-hello%3F.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-6",
+    "name": "Think about it",
+    "type": "loop",
+    "url": "loops/Think%20about%20it.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-7",
+    "name": "Pulling my leg",
+    "type": "loop",
+    "url": "loops/Pulling%20my%20leg.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-8",
+    "name": "wishes",
+    "type": "loop",
+    "url": "loops/wishes.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-9",
+    "name": "Fading Echoes",
+    "type": "loop",
+    "url": "loops/Fading%20Echoes.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-10",
+    "name": "Harvest",
+    "type": "loop",
+    "url": "loops/Harvest.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-11",
+    "name": "Mountains",
+    "type": "loop",
+    "url": "loops/Mountains.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-12",
+    "name": "Warm weather",
+    "type": "loop",
+    "url": "loops/Warm%20weather.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-13",
+    "name": "A Bit Tense",
+    "type": "loop",
+    "url": "loops/A%20Bit%20Tense.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-14",
+    "name": "Your Highness",
+    "type": "loop",
+    "url": "loops/Your%20Highness.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-15",
+    "name": "Far Away",
+    "type": "loop",
+    "url": "loops/Far%20Away.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-16",
+    "name": "Busy Downtown",
+    "type": "loop",
+    "url": "loops/Busy%20Downtown.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-17",
+    "name": "Uptown walk",
+    "type": "loop",
+    "url": "loops/Uptown%20walk.lsong"
   }
 ]
