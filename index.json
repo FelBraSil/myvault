@@ -70,5 +70,11 @@
     "name": "School and stuff",
     "type": "loop",
     "url": "loops/School%20and%20stuff.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-3",
+    "name": "Health Hopes",
+    "type": "loop",
+    "url": "loops/Health%20Hopes.lsong"
   }
 ]
