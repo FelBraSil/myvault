@@ -1,0 +1,127 @@
+{
+  "timeSignature": 4,
+  "tempo": 65,
+  "volume": 0.8,
+  "pitchShift": 0.95,
+  "reverb": 0.8,
+  "intro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "triangle",
+        "volume": 0.7,
+        "notes": [
+          { "pitch": "D2", "start": 0, "duration": 32 }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.4,
+        "notes": [
+          { "pitch": "D4", "start": 16, "duration": 16 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "tom", "position": 0 },
+        { "element": "perc", "position": 14 },
+        { "element": "rim", "position": 28 }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "soft-strings",
+        "volume": 0.6,
+        "notes": [
+          { "pitch": "D2", "start": 0, "duration": 32 },
+          { "pitch": "A2", "start": 0, "duration": 32 },
+          { "pitch": "D3", "start": 0, "duration": 32 },
+          
+          { "pitch": "D#2", "start": 32, "duration": 32 },
+          { "pitch": "A#2", "start": 32, "duration": 32 },
+          { "pitch": "D#3", "start": 32, "duration": 32 }
+        ]
+      },
+      {
+        "instrument": "triangle",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "D1", "start": 0, "duration": 16 },
+          { "pitch": "D1", "start": 16, "duration": 16 },
+          { "pitch": "D#1", "start": 32, "duration": 16 },
+          { "pitch": "D#1", "start": 48, "duration": 16 }
+        ]
+      },
+      {
+        "instrument": "retro-harp",
+        "volume": 0.7,
+        "notes": [
+          { "pitch": "D5", "start": 0, "duration": 4 },
+          { "pitch": "A4", "start": 12, "duration": 4 },
+          { "pitch": "D#5", "start": 20, "duration": 4 },
+          { "pitch": "D5", "start": 28, "duration": 4 },
+          
+          { "pitch": "A#4", "start": 36, "duration": 4 },
+          { "pitch": "A4", "start": 44, "duration": 4 },
+          { "pitch": "E4", "start": 52, "duration": 4 },
+          { "pitch": "D4", "start": 60, "duration": 4 }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.5,
+        "notes": [
+          { "pitch": "A4", "start": 16, "duration": 16 },
+          { "pitch": "A#4", "start": 48, "duration": 16 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "tom", "position": 0 },
+        { "element": "ride", "position": 0 },
+        
+        { "element": "rim", "position": 10 },
+        { "element": "rim", "position": 26 },
+        
+        { "element": "tom", "position": 32 },
+        
+        { "element": "rim", "position": 42 },
+        { "element": "rim", "position": 58 }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "soft-strings",
+        "volume": 0.6,
+        "notes": [
+          { "pitch": "D2", "start": 0, "duration": 32 },
+          { "pitch": "A2", "start": 0, "duration": 32 },
+          { "pitch": "D3", "start": 0, "duration": 32 }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.4,
+        "notes": [
+          { "pitch": "D4", "start": 0, "duration": 32 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "tom", "position": 0 },
+        { "element": "ride", "position": 0 },
+        { "element": "rim", "position": 16 },
+        { "element": "perc", "position": 24 }
+      ]
+    }
+  }
+}

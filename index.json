@@ -76,5 +76,11 @@
     "name": "Health Hopes",
     "type": "loop",
     "url": "loops/Health%20Hopes.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-4",
+    "name": "Gives me the Chills",
+    "type": "loop",
+    "url": "loops/Gives%20me%20the%20Chills.lsong"
   }
 ]
