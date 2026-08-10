@@ -1,8 +1,8 @@
 {
   "timeSignature": 4,
   "tempo": 110,
-  "volume": 0.85,
-  "pitchShift": 1.0,
+  "volume": 0.28,
+  "pitchShift": 1,
   "reverb": 0.4,
   "intro": {
     "barCount": 2,
@@ -11,32 +11,83 @@
         "instrument": "grand-piano",
         "volume": 0.9,
         "notes": [
-          { "pitch": "C4", "start": 0, "duration": 16 },
-          { "pitch": "E4", "start": 0, "duration": 16 },
-          { "pitch": "G4", "start": 0, "duration": 16 },
-          
-          { "pitch": "F4", "start": 16, "duration": 16 },
-          { "pitch": "A4", "start": 16, "duration": 16 },
-          { "pitch": "C5", "start": 16, "duration": 16 }
+          {
+            "pitch": "C4",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "E4",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "G4",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "F4",
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": "A4",
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": "C5",
+            "start": 16,
+            "duration": 16
+          }
         ]
       },
       {
         "instrument": "acoustic-guitar",
         "volume": 0.6,
         "notes": [
-          { "pitch": "C3", "start": 0, "duration": 8 },
-          { "pitch": "G3", "start": 8, "duration": 8 },
-          { "pitch": "F3", "start": 16, "duration": 8 },
-          { "pitch": "C4", "start": 24, "duration": 8 }
+          {
+            "pitch": "C3",
+            "start": 0,
+            "duration": 8
+          },
+          {
+            "pitch": "G3",
+            "start": 8,
+            "duration": 8
+          },
+          {
+            "pitch": "F3",
+            "start": 16,
+            "duration": 8
+          },
+          {
+            "pitch": "C4",
+            "start": 24,
+            "duration": 8
+          }
         ]
       }
     ],
     "drumLine": {
       "hits": [
-        { "element": "hihat", "position": 0 },
-        { "element": "hihat", "position": 8 },
-        { "element": "hihat", "position": 16 },
-        { "element": "hihat", "position": 24 }
+        {
+          "element": "hihat",
+          "position": 0
+        },
+        {
+          "element": "hihat",
+          "position": 8
+        },
+        {
+          "element": "hihat",
+          "position": 16
+        },
+        {
+          "element": "hihat",
+          "position": 24
+        }
       ]
     }
   },
@@ -45,85 +96,249 @@
     "instrumentLines": [
       {
         "instrument": "grand-piano",
-        "volume": 1.0,
+        "volume": 1,
         "notes": [
-          { "pitch": "C5", "start": 0, "duration": 4 },
-          { "pitch": "D5", "start": 4, "duration": 4 },
-          { "pitch": "E5", "start": 8, "duration": 4 },
-          { "pitch": "G5", "start": 12, "duration": 4 },
-          
-          { "pitch": "D5", "start": 16, "duration": 8 },
-          { "pitch": "B4", "start": 24, "duration": 8 },
-          
-          { "pitch": "C5", "start": 32, "duration": 4 },
-          { "pitch": "B4", "start": 36, "duration": 4 },
-          { "pitch": "A4", "start": 40, "duration": 4 },
-          { "pitch": "C5", "start": 44, "duration": 4 },
-          
-          { "pitch": "A4", "start": 48, "duration": 12 },
-          { "pitch": "G4", "start": 60, "duration": 4 }
+          {
+            "pitch": "C5",
+            "start": 0,
+            "duration": 4
+          },
+          {
+            "pitch": "D5",
+            "start": 4,
+            "duration": 4
+          },
+          {
+            "pitch": "E5",
+            "start": 8,
+            "duration": 4
+          },
+          {
+            "pitch": "G5",
+            "start": 12,
+            "duration": 4
+          },
+          {
+            "pitch": "D5",
+            "start": 16,
+            "duration": 8
+          },
+          {
+            "pitch": "B4",
+            "start": 24,
+            "duration": 8
+          },
+          {
+            "pitch": "C5",
+            "start": 32,
+            "duration": 4
+          },
+          {
+            "pitch": "B4",
+            "start": 36,
+            "duration": 4
+          },
+          {
+            "pitch": "A4",
+            "start": 40,
+            "duration": 4
+          },
+          {
+            "pitch": "C5",
+            "start": 44,
+            "duration": 4
+          },
+          {
+            "pitch": "A4",
+            "start": 48,
+            "duration": 12
+          },
+          {
+            "pitch": "G4",
+            "start": 60,
+            "duration": 4
+          }
         ]
       },
       {
         "instrument": "piano",
         "volume": 0.7,
         "notes": [
-          { "pitch": "C3", "start": 0, "duration": 16 },
-          { "pitch": "E3", "start": 0, "duration": 16 },
-          { "pitch": "G3", "start": 0, "duration": 16 },
-          
-          { "pitch": "G2", "start": 16, "duration": 16 },
-          { "pitch": "B2", "start": 16, "duration": 16 },
-          { "pitch": "D3", "start": 16, "duration": 16 },
-          
-          { "pitch": "A2", "start": 32, "duration": 16 },
-          { "pitch": "C3", "start": 32, "duration": 16 },
-          { "pitch": "E3", "start": 32, "duration": 16 },
-          
-          { "pitch": "F2", "start": 48, "duration": 16 },
-          { "pitch": "A2", "start": 48, "duration": 16 },
-          { "pitch": "C3", "start": 48, "duration": 16 }
+          {
+            "pitch": "C3",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "E3",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "G3",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "G2",
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": "B2",
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": "D3",
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": "A2",
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": "C3",
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": "E3",
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": "F2",
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": "A2",
+            "start": 48,
+            "duration": 16
+          },
+          {
+            "pitch": "C3",
+            "start": 48,
+            "duration": 16
+          }
         ]
       },
       {
         "instrument": "acoustic-guitar",
         "volume": 0.5,
         "notes": [
-          { "pitch": "C4", "start": 4, "duration": 4 },
-          { "pitch": "C4", "start": 12, "duration": 4 },
-          
-          { "pitch": "B3", "start": 20, "duration": 4 },
-          { "pitch": "B3", "start": 28, "duration": 4 },
-          
-          { "pitch": "E4", "start": 36, "duration": 4 },
-          { "pitch": "E4", "start": 44, "duration": 4 },
-          
-          { "pitch": "C4", "start": 52, "duration": 4 },
-          { "pitch": "C4", "start": 60, "duration": 4 }
+          {
+            "pitch": "C4",
+            "start": 4,
+            "duration": 4
+          },
+          {
+            "pitch": "C4",
+            "start": 12,
+            "duration": 4
+          },
+          {
+            "pitch": "B3",
+            "start": 20,
+            "duration": 4
+          },
+          {
+            "pitch": "B3",
+            "start": 28,
+            "duration": 4
+          },
+          {
+            "pitch": "E4",
+            "start": 36,
+            "duration": 4
+          },
+          {
+            "pitch": "E4",
+            "start": 44,
+            "duration": 4
+          },
+          {
+            "pitch": "C4",
+            "start": 52,
+            "duration": 4
+          },
+          {
+            "pitch": "C4",
+            "start": 60,
+            "duration": 4
+          }
         ]
       }
     ],
     "drumLine": {
       "hits": [
-        { "element": "hihat", "position": 0 },
-        { "element": "hihat", "position": 4 },
-        { "element": "rim", "position": 8 },
-        { "element": "hihat", "position": 12 },
-        
-        { "element": "hihat", "position": 16 },
-        { "element": "hihat", "position": 20 },
-        { "element": "rim", "position": 24 },
-        { "element": "hihat", "position": 28 },
-        
-        { "element": "hihat", "position": 32 },
-        { "element": "hihat", "position": 36 },
-        { "element": "rim", "position": 40 },
-        { "element": "hihat", "position": 44 },
-        
-        { "element": "hihat", "position": 48 },
-        { "element": "hihat", "position": 52 },
-        { "element": "rim", "position": 56 },
-        { "element": "hihatOpen", "position": 60 }
+        {
+          "element": "hihat",
+          "position": 0
+        },
+        {
+          "element": "hihat",
+          "position": 4
+        },
+        {
+          "element": "rim",
+          "position": 8
+        },
+        {
+          "element": "hihat",
+          "position": 12
+        },
+        {
+          "element": "hihat",
+          "position": 16
+        },
+        {
+          "element": "hihat",
+          "position": 20
+        },
+        {
+          "element": "rim",
+          "position": 24
+        },
+        {
+          "element": "hihat",
+          "position": 28
+        },
+        {
+          "element": "hihat",
+          "position": 32
+        },
+        {
+          "element": "hihat",
+          "position": 36
+        },
+        {
+          "element": "rim",
+          "position": 40
+        },
+        {
+          "element": "hihat",
+          "position": 44
+        },
+        {
+          "element": "hihat",
+          "position": 48
+        },
+        {
+          "element": "hihat",
+          "position": 52
+        },
+        {
+          "element": "rim",
+          "position": 56
+        },
+        {
+          "element": "hihatOpen",
+          "position": 60
+        }
       ]
     }
   },
@@ -134,18 +349,45 @@
         "instrument": "grand-piano",
         "volume": 0.9,
         "notes": [
-          { "pitch": "C3", "start": 0, "duration": 16 },
-          { "pitch": "G3", "start": 2, "duration": 14 },
-          { "pitch": "C4", "start": 4, "duration": 12 },
-          { "pitch": "E4", "start": 6, "duration": 10 },
-          { "pitch": "G4", "start": 8, "duration": 8 },
-          { "pitch": "C5", "start": 10, "duration": 6 }
+          {
+            "pitch": "C3",
+            "start": 0,
+            "duration": 16
+          },
+          {
+            "pitch": "G3",
+            "start": 2,
+            "duration": 14
+          },
+          {
+            "pitch": "C4",
+            "start": 4,
+            "duration": 12
+          },
+          {
+            "pitch": "E4",
+            "start": 6,
+            "duration": 10
+          },
+          {
+            "pitch": "G4",
+            "start": 8,
+            "duration": 8
+          },
+          {
+            "pitch": "C5",
+            "start": 10,
+            "duration": 6
+          }
         ]
       }
     ],
     "drumLine": {
       "hits": [
-        { "element": "perc", "position": 0 }
+        {
+          "element": "perc",
+          "position": 0
+        }
       ]
     }
   }
