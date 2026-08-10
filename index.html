@@ -7,20 +7,27 @@
     <style>
         body { font-family: sans-serif; padding: 2rem; background: #121212; color: #fff; }
         h1 { color: #bb86fc; }
+        .tabs { display: flex; gap: 1rem; margin-bottom: 1rem; border-bottom: 2px solid #333; padding-bottom: 0.5rem; }
+        .tab { background: none; color: #aaa; border: none; font-size: 1.2rem; cursor: pointer; padding: 0.5rem 1rem; text-transform: capitalize; border-radius: 4px 4px 0 0; }
+        .tab.active { color: #bb86fc; border-bottom: 2px solid #bb86fc; margin-bottom: -0.6rem; }
+        .tab:hover { color: #fff; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
         ul { list-style: none; padding: 0; }
         li { margin: 1rem 0; background: #1e1e1e; padding: 1rem; border-radius: 8px; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
         a { color: #03dac6; text-decoration: none; font-size: 1.1rem; flex: 1; min-width: 200px; }
         a:hover { text-decoration: underline; }
-        button { background: #bb86fc; color: #000; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
-        button:hover { background: #9965f4; }
+        button.action-btn { background: #bb86fc; color: #000; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        button.action-btn:hover { background: #9965f4; }
         audio, img, video { outline: none; max-width: 100%; max-height: 200px; }
         audio { height: 36px; width: 100%; }
-        .media-container { flex: 2; min-width: 250px; }
+        .media-container { flex: 2; min-width: 250px; display: flex; align-items: center; justify-content: flex-start; }
     </style>
 </head>
 <body>
     <h1>My Vault</h1>
-    <ul id="vault-list"></ul>
+    <div class="tabs" id="tabs-container"></div>
+    <div id="vault-content"></div>
 
     <script>
         const baseUrl = "https://felbrasil.github.io/myvault/";
@@ -34,48 +41,109 @@
             });
         }
 
+        async function copyJsonCode(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const text = await response.text();
+                await navigator.clipboard.writeText(text);
+                alert('JSON code copied to clipboard!');
+            } catch (err) {
+                console.error('Error fetching or copying JSON: ', err);
+                alert('Failed to copy JSON code.');
+            }
+        }
+
+        function switchTab(type) {
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.type === type);
+            });
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.toggle('active', content.id === 'content-' + type);
+            });
+        }
+
         async function loadVault() {
             try {
                 const response = await fetch('index.json');
                 if (!response.ok) throw new Error('Network response was not ok');
                 const items = await response.json();
-                const list = document.getElementById('vault-list');
-
+                
+                const itemsByType = {};
                 items.forEach(item => {
-                    const li = document.createElement('li');
-                    
-                    const link = document.createElement('a');
-                    link.href = item.url;
-                    link.textContent = item.name;
-                    link.target = "_blank";
-                    
-                    const mediaContainer = document.createElement('div');
-                    mediaContainer.className = 'media-container';
-                    
-                    if (item.type === 'audio') {
-                        const audio = document.createElement('audio');
-                        audio.controls = true;
-                        audio.src = item.url;
-                        mediaContainer.appendChild(audio);
-                    } else if (item.type === 'image') {
-                        const img = document.createElement('img');
-                        img.src = item.url;
-                        img.alt = item.name;
-                        mediaContainer.appendChild(img);
-                    }
-
-                    const copyBtn = document.createElement('button');
-                    copyBtn.textContent = 'Copy Link';
-                    copyBtn.onclick = () => copyToClipboard(item.url);
-
-                    li.appendChild(link);
-                    li.appendChild(mediaContainer);
-                    li.appendChild(copyBtn);
-                    list.appendChild(li);
+                    if (!itemsByType[item.type]) itemsByType[item.type] = [];
+                    itemsByType[item.type].push(item);
                 });
+
+                const tabsContainer = document.getElementById('tabs-container');
+                const vaultContent = document.getElementById('vault-content');
+                let first = true;
+
+                for (const [type, typeItems] of Object.entries(itemsByType)) {
+                    // Create tab
+                    const tabBtn = document.createElement('button');
+                    tabBtn.className = 'tab' + (first ? ' active' : '');
+                    tabBtn.dataset.type = type + 's';
+                    tabBtn.textContent = type + 's';
+                    tabBtn.onclick = () => switchTab(type);
+                    tabsContainer.appendChild(tabBtn);
+
+                    // Create content container
+                    const contentDiv = document.createElement('div');
+                    contentDiv.className = 'tab-content' + (first ? ' active' : '');
+                    contentDiv.id = 'content-' + type;
+
+                    const ul = document.createElement('ul');
+                    typeItems.forEach(item => {
+                        const li = document.createElement('li');
+                        
+                        const link = document.createElement('a');
+                        link.href = item.url;
+                        link.textContent = item.name;
+                        link.target = "_blank";
+                        
+                        const mediaContainer = document.createElement('div');
+                        mediaContainer.className = 'media-container';
+                        
+                        if (item.type === 'audio') {
+                            const audio = document.createElement('audio');
+                            audio.controls = true;
+                            audio.src = item.url;
+                            mediaContainer.appendChild(audio);
+                        } else if (item.type === 'image') {
+                            const img = document.createElement('img');
+                            img.src = item.url;
+                            img.alt = item.name;
+                            mediaContainer.appendChild(img);
+                        }
+
+                        li.appendChild(link);
+                        li.appendChild(mediaContainer);
+
+                        if (item.type === 'loop') {
+                            const copyJsonBtn = document.createElement('button');
+                            copyJsonBtn.className = 'action-btn';
+                            copyJsonBtn.textContent = 'Copy JSON Code';
+                            copyJsonBtn.onclick = () => copyJsonCode(item.url);
+                            li.appendChild(copyJsonBtn);
+                        } else {
+                            const copyBtn = document.createElement('button');
+                            copyBtn.className = 'action-btn';
+                            copyBtn.textContent = 'Copy Link';
+                            copyBtn.onclick = () => copyToClipboard(item.url);
+                            li.appendChild(copyBtn);
+                        }
+
+                        ul.appendChild(li);
+                    });
+                    
+                    contentDiv.appendChild(ul);
+                    vaultContent.appendChild(contentDiv);
+                    first = false;
+                }
             } catch (err) {
                 console.error("Failed to load vault data", err);
-                document.getElementById('vault-list').innerHTML = "<li>Error loading files. Make sure index.json exists.</li>";
+                document.getElementById('vault-content').innerHTML = "<p>Error loading files. Make sure index.json exists.</p>";
             }
         }
 

@@ -58,5 +58,11 @@
     "name": "Dancing In The Victory",
     "type": "audio",
     "url": "audio/Dancing%20In%20The%20Victory.mp3"
+  },
+  {
+    "id": "felbrasil-vault-loop-1",
+    "name": "Happy Time!",
+    "type": "loop",
+    "url": "loops/Happy%20Time!.lsong"
   }
 ]
