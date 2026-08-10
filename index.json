@@ -160,5 +160,11 @@
     "name": "Uptown walk",
     "type": "loop",
     "url": "loops/Uptown%20walk.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-18",
+    "name": "Relax and sit",
+    "type": "loop",
+    "url": "loops/Relax%20and%20sit.lsong"
   }
 ]
