@@ -166,5 +166,11 @@
     "name": "Relax and sit",
     "type": "loop",
     "url": "loops/Relax%20and%20sit.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-19",
+    "name": "Waiting",
+    "type": "loop",
+    "url": "loops/Waiting.lsong"
   }
 ]

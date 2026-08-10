@@ -1,0 +1,212 @@
+{
+  "timeSignature": 4,
+  "tempo": 72,
+  "volume": 0.85,
+  "pitchShift": 1.0,
+  "reverb": 0.45,
+  "intro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "rb-epiano",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "F3", "start": 0, "duration": 14 },
+          { "pitch": "A3", "start": 1, "duration": 13 },
+          { "pitch": "C4", "start": 2, "duration": 12 },
+          { "pitch": "E4", "start": 3, "duration": 11 },
+          
+          { "pitch": "E3", "start": 16, "duration": 14 },
+          { "pitch": "G3", "start": 17, "duration": 13 },
+          { "pitch": "B3", "start": 18, "duration": 12 },
+          { "pitch": "C4", "start": 19, "duration": 11 }
+        ]
+      },
+      {
+        "instrument": "rb-vocal-pad",
+        "volume": 0.4,
+        "notes": [
+          { "pitch": "F3", "start": 0, "duration": 16 }, { "pitch": "C4", "start": 0, "duration": 16 }, { "pitch": "E4", "start": 0, "duration": 16 },
+          { "pitch": "E3", "start": 16, "duration": 16 }, { "pitch": "B3", "start": 16, "duration": 16 }, { "pitch": "C4", "start": 16, "duration": 16 }
+        ]
+      },
+      {
+        "instrument": "rb-sub-bass",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "D1", "start": 0, "duration": 8 },
+          { "pitch": "A1", "start": 16, "duration": 8 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "shaker", "position": 0 }, { "element": "shaker", "position": 2 },
+        { "element": "shaker", "position": 4 }, { "element": "snap", "position": 4 },
+        { "element": "shaker", "position": 6 }, { "element": "shaker", "position": 8 },
+        { "element": "shaker", "position": 10 }, { "element": "shaker", "position": 12 },
+        { "element": "snap", "position": 12 }, { "element": "shaker", "position": 14 },
+        
+        { "element": "shaker", "position": 16 }, { "element": "shaker", "position": 18 },
+        { "element": "shaker", "position": 20 }, { "element": "snap", "position": 20 },
+        { "element": "shaker", "position": 22 }, { "element": "shaker", "position": 24 },
+        { "element": "shaker", "position": 26 }, { "element": "shaker", "position": 28 },
+        { "element": "snap", "position": 28 }, { "element": "shaker", "position": 30 }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "rb-epiano",
+        "volume": 0.85,
+        "notes": [
+          { "pitch": "F3", "start": 0, "duration": 14 }, { "pitch": "A3", "start": 1, "duration": 13 }, { "pitch": "C4", "start": 2, "duration": 12 }, { "pitch": "E4", "start": 3, "duration": 11 },
+          { "pitch": "E3", "start": 16, "duration": 14 }, { "pitch": "G3", "start": 17, "duration": 13 }, { "pitch": "B3", "start": 18, "duration": 12 }, { "pitch": "C4", "start": 19, "duration": 11 },
+          { "pitch": "D3", "start": 32, "duration": 14 }, { "pitch": "F3", "start": 33, "duration": 13 }, { "pitch": "A3", "start": 34, "duration": 12 }, { "pitch": "A#3", "start": 35, "duration": 11 },
+          { "pitch": "E3", "start": 48, "duration": 14 }, { "pitch": "G3", "start": 49, "duration": 13 }, { "pitch": "B3", "start": 50, "duration": 12 }, { "pitch": "C4", "start": 51, "duration": 11 }
+        ]
+      },
+      {
+        "instrument": "rb-sub-bass",
+        "volume": 1.0,
+        "notes": [
+          { "pitch": "D1", "start": 0, "duration": 6 }, { "pitch": "D1", "start": 11, "duration": 4 },
+          { "pitch": "A1", "start": 16, "duration": 6 }, { "pitch": "A1", "start": 27, "duration": 4 },
+          { "pitch": "G1", "start": 32, "duration": 6 }, { "pitch": "G1", "start": 43, "duration": 4 },
+          { "pitch": "A1", "start": 48, "duration": 6 }, { "pitch": "A1", "start": 59, "duration": 4 }
+        ]
+      },
+      {
+        "instrument": "rb-vocal-pad",
+        "volume": 0.45,
+        "notes": [
+          { "pitch": "F3", "start": 0, "duration": 16 }, { "pitch": "C4", "start": 0, "duration": 16 }, { "pitch": "E4", "start": 0, "duration": 16 },
+          { "pitch": "E3", "start": 16, "duration": 16 }, { "pitch": "B3", "start": 16, "duration": 16 }, { "pitch": "C4", "start": 16, "duration": 16 },
+          { "pitch": "D3", "start": 32, "duration": 16 }, { "pitch": "A3", "start": 32, "duration": 16 }, { "pitch": "A#3", "start": 32, "duration": 16 },
+          { "pitch": "E3", "start": 48, "duration": 16 }, { "pitch": "B3", "start": 48, "duration": 16 }, { "pitch": "C4", "start": 48, "duration": 16 }
+        ]
+      },
+      {
+        "instrument": "rb-smooth-lead",
+        "volume": 0.75,
+        "notes": [
+          { "pitch": "E5", "start": 0, "duration": 6 }, { "pitch": "D5", "start": 7, "duration": 1 }, { "pitch": "C5", "start": 8, "duration": 5 },
+          { "pitch": "B4", "start": 16, "duration": 6 }, { "pitch": "A4", "start": 23, "duration": 1 }, { "pitch": "G4", "start": 24, "duration": 5 },
+          { "pitch": "A4", "start": 32, "duration": 6 }, { "pitch": "G4", "start": 39, "duration": 1 }, { "pitch": "F4", "start": 40, "duration": 5 },
+          { "pitch": "E4", "start": 48, "duration": 12 }, { "pitch": "G4", "start": 60, "duration": 2 }, { "pitch": "A4", "start": 62, "duration": 2 }
+        ]
+      },
+      {
+        "instrument": "flute",
+        "volume": 0.3,
+        "notes": [
+          { "pitch": "E6", "start": 0, "duration": 6 }, { "pitch": "C6", "start": 8, "duration": 5 },
+          { "pitch": "B5", "start": 16, "duration": 6 }, { "pitch": "G5", "start": 24, "duration": 5 },
+          { "pitch": "A5", "start": 32, "duration": 6 }, { "pitch": "F5", "start": 40, "duration": 5 },
+          { "pitch": "E5", "start": 48, "duration": 12 }
+        ]
+      },
+      {
+        "instrument": "rb-clean-guitar",
+        "volume": 0.45,
+        "notes": [
+          { "pitch": "A4", "start": 12, "duration": 2 }, { "pitch": "C5", "start": 12, "duration": 2 },
+          { "pitch": "G4", "start": 28, "duration": 2 }, { "pitch": "B4", "start": 28, "duration": 2 },
+          { "pitch": "F4", "start": 44, "duration": 2 }, { "pitch": "A4", "start": 44, "duration": 2 },
+          { "pitch": "G4", "start": 60, "duration": 2 }, { "pitch": "B4", "start": 60, "duration": 2 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "kick", "position": 0 }, { "element": "shaker", "position": 0 },
+        { "element": "shaker", "position": 2 },
+        { "element": "snap", "position": 4 }, { "element": "shaker", "position": 4 },
+        { "element": "shaker", "position": 6 },
+        { "element": "shaker", "position": 8 },
+        { "element": "shaker", "position": 10 },
+        { "element": "kick", "position": 11 },
+        { "element": "snap", "position": 12 }, { "element": "shaker", "position": 12 },
+        { "element": "shaker", "position": 14 },
+        { "element": "congaLow", "position": 15 },
+        
+        { "element": "kick", "position": 16 }, { "element": "shaker", "position": 16 },
+        { "element": "shaker", "position": 18 },
+        { "element": "snap", "position": 20 }, { "element": "shaker", "position": 20 },
+        { "element": "shaker", "position": 22 },
+        { "element": "shaker", "position": 24 },
+        { "element": "shaker", "position": 26 },
+        { "element": "kick", "position": 27 },
+        { "element": "snap", "position": 28 }, { "element": "shaker", "position": 28 },
+        { "element": "shaker", "position": 30 },
+        
+        { "element": "kick", "position": 32 }, { "element": "shaker", "position": 32 },
+        { "element": "shaker", "position": 34 },
+        { "element": "snap", "position": 36 }, { "element": "shaker", "position": 36 },
+        { "element": "shaker", "position": 38 },
+        { "element": "shaker", "position": 40 },
+        { "element": "shaker", "position": 42 },
+        { "element": "kick", "position": 43 },
+        { "element": "snap", "position": 44 }, { "element": "shaker", "position": 44 },
+        { "element": "shaker", "position": 46 },
+        { "element": "congaLow", "position": 47 },
+        
+        { "element": "kick", "position": 48 }, { "element": "shaker", "position": 48 },
+        { "element": "shaker", "position": 50 },
+        { "element": "snap", "position": 52 }, { "element": "shaker", "position": 52 },
+        { "element": "shaker", "position": 54 },
+        { "element": "shaker", "position": 56 },
+        { "element": "shaker", "position": 58 },
+        { "element": "kick", "position": 59 },
+        { "element": "snap", "position": 60 }, { "element": "shaker", "position": 60 },
+        { "element": "shaker", "position": 62 }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 1,
+    "instrumentLines": [
+      {
+        "instrument": "rb-epiano",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "F3", "start": 0, "duration": 16 },
+          { "pitch": "A3", "start": 1, "duration": 15 },
+          { "pitch": "C4", "start": 2, "duration": 14 },
+          { "pitch": "E4", "start": 3, "duration": 13 }
+        ]
+      },
+      {
+        "instrument": "rb-vocal-pad",
+        "volume": 0.4,
+        "notes": [
+          { "pitch": "F3", "start": 0, "duration": 16 },
+          { "pitch": "C4", "start": 0, "duration": 16 },
+          { "pitch": "E4", "start": 0, "duration": 16 }
+        ]
+      },
+      {
+        "instrument": "rb-sub-bass",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "D1", "start": 0, "duration": 16 }
+        ]
+      },
+      {
+        "instrument": "rb-smooth-lead",
+        "volume": 0.7,
+        "notes": [
+          { "pitch": "E5", "start": 0, "duration": 16 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "kick", "position": 0 },
+        { "element": "crash", "position": 0 }
+      ]
+    }
+  }
+}
