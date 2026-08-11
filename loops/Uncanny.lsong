@@ -1,0 +1,188 @@
+{
+  "timeSignature": 4,
+  "tempo": 50,
+  "volume": 0.29,
+  "pitchShift": 0.9,
+  "reverb": 0.9,
+  "intro": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "soft-strings",
+        "volume": 0.3,
+        "notes": [
+          {
+            "pitch": -24,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      },
+      {
+        "instrument": "s-wind",
+        "volume": 0.2,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "perc",
+          "position": 8
+        }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 16,
+    "instrumentLines": [
+      {
+        "instrument": "/audio/samples/SDGR_Pull.sf2",
+        "volume": 0.4,
+        "notes": [
+          {
+            "pitch": -24,
+            "start": 0,
+            "duration": 256
+          }
+        ]
+      },
+      {
+        "instrument": "/audio/samples/Harmonica.sf2",
+        "volume": 0.15,
+        "notes": [
+          {
+            "pitch": -11,
+            "start": 32,
+            "duration": 64
+          },
+          {
+            "pitch": -10,
+            "start": 128,
+            "duration": 64
+          }
+        ]
+      },
+      {
+        "instrument": "soft-strings",
+        "volume": 0.3,
+        "notes": [
+          {
+            "pitch": 36,
+            "start": 16,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 74,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 140,
+            "duration": 2
+          },
+          {
+            "pitch": 36,
+            "start": 210,
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "instrument": "mandolin",
+        "volume": 0.2,
+        "notes": [
+          {
+            "pitch": 7,
+            "start": 0,
+            "duration": 256
+          }
+        ]
+      },
+      {
+        "instrument": "guitar",
+        "volume": 0.2,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 96,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "xylophone",
+        "volume": 0.15,
+        "notes": [
+          {
+            "pitch": 49,
+            "start": 48,
+            "duration": 32
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "timpani",
+          "position": 0
+        },
+        {
+          "element": "timpani",
+          "position": 128
+        },
+        {
+          "element": "perc",
+          "position": 64
+        },
+        {
+          "element": "perc",
+          "position": 192
+        }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "/audio/samples/SDGR_Pull.sf2",
+        "volume": 0.2,
+        "notes": [
+          {
+            "pitch": -24,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      },
+      {
+        "instrument": "/audio/samples/Colin_s_Double_Bass.sf2",
+        "volume": 0.1,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": []
+    }
+  },
+  "effects": {
+    "reverb": {
+      "mix": 0.9
+    }
+  }
+}
