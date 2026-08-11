@@ -178,5 +178,11 @@
     "name": "All that jazz",
     "type": "loop",
     "url": "loops/All%20that%20jazz.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-21",
+    "name": "Uneasy",
+    "type": "loop",
+    "url": "loops/Uneasy.lsong"
   }
 ]
