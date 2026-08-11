@@ -184,5 +184,11 @@
     "name": "Uneasy",
     "type": "loop",
     "url": "loops/Uneasy.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-22",
+    "name": "Kind Of Quiet",
+    "type": "loop",
+    "url": "loops/Kind%20Of%20Quiet.lsong"
   }
 ]

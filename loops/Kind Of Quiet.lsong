@@ -1,0 +1,407 @@
+{
+  "timeSignature": 4,
+  "tempo": 110,
+  "volume": 0.32,
+  "pitchShift": 1,
+  "reverb": 0.6,
+  "intro": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "grand-piano",
+        "volume": 0.9,
+        "notes": [
+          {
+            "pitch": 36,
+            "start": 0,
+            "duration": 8
+          },
+          {
+            "pitch": 31,
+            "start": 16,
+            "duration": 8
+          },
+          {
+            "pitch": 39,
+            "start": 32,
+            "duration": 8
+          },
+          {
+            "pitch": 36,
+            "start": 48,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.6,
+        "notes": [
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 2
+          },
+          {
+            "pitch": 27,
+            "start": 2,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 4,
+            "duration": 2
+          },
+          {
+            "pitch": 30,
+            "start": 6,
+            "duration": 8
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "warDrum",
+          "position": 0
+        },
+        {
+          "element": "tambourine",
+          "position": 8
+        },
+        {
+          "element": "warDrum",
+          "position": 32
+        },
+        {
+          "element": "tambourine",
+          "position": 40
+        }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 8,
+    "instrumentLines": [
+      {
+        "instrument": "grand-piano",
+        "volume": 0.8,
+        "notes": [
+          {
+            "pitch": 36,
+            "start": 0,
+            "duration": 4
+          },
+          {
+            "pitch": 39,
+            "start": 32,
+            "duration": 4
+          },
+          {
+            "pitch": 36,
+            "start": 64,
+            "duration": 4
+          },
+          {
+            "pitch": 35,
+            "start": 96,
+            "duration": 4
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.6,
+        "notes": [
+          {
+            "pitch": 24,
+            "start": 0,
+            "duration": 2
+          },
+          {
+            "pitch": 27,
+            "start": 2,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 4,
+            "duration": 2
+          },
+          {
+            "pitch": 30,
+            "start": 6,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 8,
+            "duration": 2
+          },
+          {
+            "pitch": 30,
+            "start": 10,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 12,
+            "duration": 2
+          },
+          {
+            "pitch": 27,
+            "start": 14,
+            "duration": 2
+          },
+          {
+            "pitch": 24,
+            "start": 16,
+            "duration": 2
+          },
+          {
+            "pitch": 27,
+            "start": 18,
+            "duration": 2
+          },
+          {
+            "pitch": 29,
+            "start": 20,
+            "duration": 2
+          },
+          {
+            "pitch": 30,
+            "start": 22,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 24,
+            "duration": 2
+          },
+          {
+            "pitch": 34,
+            "start": 26,
+            "duration": 2
+          },
+          {
+            "pitch": 31,
+            "start": 28,
+            "duration": 2
+          },
+          {
+            "pitch": 30,
+            "start": 30,
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "instrument": "grand-piano",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": 48,
+            "start": 0,
+            "duration": 4
+          },
+          {
+            "pitch": 47,
+            "start": 4,
+            "duration": 4
+          },
+          {
+            "pitch": 46,
+            "start": 8,
+            "duration": 4
+          },
+          {
+            "pitch": 45,
+            "start": 12,
+            "duration": 4
+          },
+          {
+            "pitch": 44,
+            "start": 16,
+            "duration": 4
+          },
+          {
+            "pitch": 43,
+            "start": 20,
+            "duration": 4
+          },
+          {
+            "pitch": 42,
+            "start": 24,
+            "duration": 4
+          },
+          {
+            "pitch": 41,
+            "start": 28,
+            "duration": 4
+          }
+        ]
+      },
+      {
+        "instrument": "grand-piano",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 8
+          },
+          {
+            "pitch": 15,
+            "start": 32,
+            "duration": 8
+          },
+          {
+            "pitch": 17,
+            "start": 64,
+            "duration": 8
+          },
+          {
+            "pitch": 18,
+            "start": 96,
+            "duration": 8
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.7,
+        "notes": [
+          {
+            "pitch": 12,
+            "start": 0,
+            "duration": 4
+          },
+          {
+            "pitch": 15,
+            "start": 32,
+            "duration": 4
+          },
+          {
+            "pitch": 12,
+            "start": 64,
+            "duration": 4
+          },
+          {
+            "pitch": 7,
+            "start": 96,
+            "duration": 4
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "warDrum",
+          "position": 0
+        },
+        {
+          "element": "tambourine",
+          "position": 2
+        },
+        {
+          "element": "perc",
+          "position": 4
+        },
+        {
+          "element": "tambourine",
+          "position": 6
+        },
+        {
+          "element": "warDrum",
+          "position": 8
+        },
+        {
+          "element": "tambourine",
+          "position": 10
+        },
+        {
+          "element": "perc",
+          "position": 12
+        },
+        {
+          "element": "tambourine",
+          "position": 14
+        },
+        {
+          "element": "warDrum",
+          "position": 16
+        },
+        {
+          "element": "tambourine",
+          "position": 18
+        },
+        {
+          "element": "perc",
+          "position": 20
+        },
+        {
+          "element": "tambourine",
+          "position": 22
+        },
+        {
+          "element": "warDrum",
+          "position": 24
+        },
+        {
+          "element": "tambourine",
+          "position": 26
+        },
+        {
+          "element": "perc",
+          "position": 28
+        },
+        {
+          "element": "tambourine",
+          "position": 30
+        }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "grand-piano",
+        "volume": 0.9,
+        "notes": [
+          {
+            "pitch": 36,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "grand-piano",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 0,
+            "duration": 32
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "warDrum",
+          "position": 0
+        }
+      ]
+    }
+  },
+  "effects": {
+    "reverb": {
+      "mix": 0.6
+    }
+  }
+}
