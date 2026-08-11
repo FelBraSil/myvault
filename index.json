@@ -172,5 +172,11 @@
     "name": "Waiting",
     "type": "loop",
     "url": "loops/Waiting.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-20",
+    "name": "All that jazz",
+    "type": "loop",
+    "url": "loops/All%20that%20jazz.lsong"
   }
 ]
