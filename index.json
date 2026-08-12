@@ -310,5 +310,11 @@
     "name": "Juhani Junkala - 4. Stage Select",
     "type": "audio",
     "url": "audio/Juhani%20Junkala%20-%204.%20Stage%20Select.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-25",
+    "name": "Brandon Morris - Bleeding out",
+    "type": "audio",
+    "url": "audio/Brandon%20Morris%20-%20Bleeding%20out.ogg"
   }
 ]
