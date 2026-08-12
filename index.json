@@ -280,5 +280,11 @@
     "name": "pauliuw - the_field_of_dreams",
     "type": "audio",
     "url": "audio/pauliuw%20-%20the_field_of_dreams.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-20",
+    "name": "Yd - ObservingTheStar",
+    "type": "audio",
+    "url": "audio/Yd%20-%20ObservingTheStar.ogg"
   }
 ]
