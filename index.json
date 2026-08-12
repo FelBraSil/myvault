@@ -202,5 +202,11 @@
     "name": "Purgatory",
     "type": "loop",
     "url": "loops/Purgatory.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-25",
+    "name": "Anywhere but here",
+    "type": "loop",
+    "url": "loops/Anywhere%20but%20here.lsong"
   }
 ]
