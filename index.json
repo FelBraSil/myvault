@@ -220,5 +220,11 @@
     "name": "Oh My Ghost",
     "type": "loop",
     "url": "loops/Oh%20My%20Ghost.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-28",
+    "name": "Electroparadise",
+    "type": "loop",
+    "url": "loops/Electroparadise.lsong"
   }
 ]
