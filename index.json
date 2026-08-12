@@ -316,5 +316,41 @@
     "name": "Brandon Morris - Bleeding out",
     "type": "audio",
     "url": "audio/Brandon%20Morris%20-%20Bleeding%20out.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-26",
+    "name": "Juhani Junkala - Exploration1 - Grasslands",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Exploration1%20-%20Grasslands.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-27",
+    "name": "Juhani Junkala - Exploration2 - Military Base",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Exploration2%20-%20Military%20Base.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-28",
+    "name": "Juhani Junkala - Exploration3 - Tha'el Mines",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Exploration3%20-%20Tha'el%20Mines.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-29",
+    "name": "Juhani Junkala - Exploration4 - Prairie Nights",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Exploration4%20-%20Prairie%20Nights.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-30",
+    "name": "Juhani Junkala - Exploration5 - Sneaking Around",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Exploration5%20-%20Sneaking%20Around.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-31",
+    "name": "Juhani Junkala - Exploration6 - Tropical Island",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Exploration6%20-%20Tropical%20Island.ogg"
   }
 ]
