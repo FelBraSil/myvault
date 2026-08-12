@@ -1,0 +1,150 @@
+{
+  "timeSignature": 5,
+  "tempo": 90,
+  "volume": 0.85,
+  "pitchShift": 0.9,
+  "reverb": 0.9,
+  "intro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "whispers",
+        "volume": 0.5,
+        "notes": [
+          { "pitch": "C0", "start": 0, "duration": 40 }
+        ]
+      },
+      {
+        "instrument": "sine",
+        "volume": 0.6,
+        "notes": [
+          { "pitch": "C1", "start": 0, "duration": 40 }
+        ]
+      },
+      {
+        "instrument": "retro-choir",
+        "volume": 0.25,
+        "notes": [
+          { "pitch": "C2", "start": 0, "duration": 40 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "timpani", "position": 0 },
+        { "element": "warDrum", "position": 0 },
+        { "element": "warDrum", "position": 19 },
+        { "element": "warDrum", "position": 38 }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 8,
+    "instrumentLines": [
+      {
+        "instrument": "whispers",
+        "volume": 0.55,
+        "notes": [
+          { "pitch": "C0", "start": 0, "duration": 40 },
+          { "pitch": "F#1", "start": 25, "duration": 35 },
+          { "pitch": "C2", "start": 55, "duration": 40 },
+          { "pitch": "D#0", "start": 85, "duration": 45 },
+          { "pitch": "A1", "start": 115, "duration": 30 },
+          { "pitch": "C3", "start": 130, "duration": 30 }
+        ]
+      },
+      {
+        "instrument": "sine",
+        "volume": 0.7,
+        "notes": [
+          { "pitch": "C1", "start": 0, "duration": 40 },
+          { "pitch": "F#1", "start": 40, "duration": 40 },
+          { "pitch": "A0", "start": 80, "duration": 40 },
+          { "pitch": "D#1", "start": 120, "duration": 40 }
+        ]
+      },
+      {
+        "instrument": "retro-choir",
+        "volume": 0.2,
+        "notes": [
+          { "pitch": "C2", "start": 0, "duration": 80 },
+          { "pitch": "B1", "start": 80, "duration": 80 }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.65,
+        "notes": [
+          { "pitch": "C1", "start": 13, "duration": 8 },
+          { "pitch": "F#1", "start": 47, "duration": 8 },
+          { "pitch": "G1", "start": 83, "duration": 8 },
+          { "pitch": "C#1", "start": 127, "duration": 8 }
+        ]
+      },
+      {
+        "instrument": "custom:inst_97svonj",
+        "volume": 0.25,
+        "notes": [
+          { "pitch": "C1", "start": 0, "duration": 160 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "warDrum", "position": 17 },
+        { "element": "warDrum", "position": 36 },
+        { "element": "warDrum", "position": 55 },
+        { "element": "warDrum", "position": 74 },
+        { "element": "warDrum", "position": 93 },
+        { "element": "warDrum", "position": 112 },
+        { "element": "warDrum", "position": 131 },
+        { "element": "warDrum", "position": 150 },
+        
+        { "element": "timpani", "position": 5 },
+        { "element": "timpani", "position": 45 },
+        { "element": "timpani", "position": 85 },
+        { "element": "timpani", "position": 125 },
+        
+        { "element": "rim", "position": 11 },
+        { "element": "rim", "position": 22 },
+        { "element": "rim", "position": 33 },
+        { "element": "rim", "position": 44 },
+        { "element": "rim", "position": 55 },
+        { "element": "rim", "position": 66 },
+        { "element": "rim", "position": 77 },
+        { "element": "rim", "position": 88 },
+        { "element": "rim", "position": 99 },
+        { "element": "rim", "position": 110 },
+        { "element": "rim", "position": 121 },
+        { "element": "rim", "position": 132 },
+        { "element": "rim", "position": 143 },
+        { "element": "rim", "position": 154 }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 2,
+    "instrumentLines": [
+      {
+        "instrument": "whispers",
+        "volume": 0.6,
+        "notes": [
+          { "pitch": "F#0", "start": 0, "duration": 40 }
+        ]
+      },
+      {
+        "instrument": "sine",
+        "volume": 0.5,
+        "notes": [
+          { "pitch": "C1", "start": 0, "duration": 40 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "timpani", "position": 0 },
+        { "element": "warDrum", "position": 9 }
+      ]
+    }
+  }
+}
