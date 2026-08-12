@@ -268,5 +268,11 @@
     "name": "pixelsphere - TownTheme",
     "type": "audio",
     "url": "audio/pixelsphere%20-%20TownTheme.mp3"
+  },
+  {
+    "id": "felbrasil-vault-audio-18",
+    "name": "pixelsphere - battleThemeA",
+    "type": "audio",
+    "url": "audio/pixelsphere%20-%20battleThemeA.mp3"
   }
 ]
