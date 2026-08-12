@@ -208,5 +208,11 @@
     "name": "Anywhere but here",
     "type": "loop",
     "url": "loops/Anywhere%20but%20here.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-26",
+    "name": "Anxiety",
+    "type": "loop",
+    "url": "loops/Anxiety.lsong"
   }
 ]

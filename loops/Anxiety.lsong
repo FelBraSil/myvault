@@ -1,0 +1,154 @@
+{
+  "timeSignature": 5,
+  "tempo": 113,
+  "volume": 0.85,
+  "pitchShift": 0.95,
+  "reverb": 0.7,
+  "intro": {
+    "barCount": 1,
+    "instrumentLines": [
+      {
+        "instrument": "grand-piano",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "C2", "start": 0, "duration": 4 }, { "pitch": "C#2", "start": 0, "duration": 4 }, { "pitch": "F#2", "start": 0, "duration": 4 }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "D1", "start": 0, "duration": 4 },
+          { "pitch": "D1", "start": 9, "duration": 4 },
+          { "pitch": "D1", "start": 18, "duration": 4 }
+        ]
+      },
+      {
+        "instrument": "retro-choir",
+        "volume": 0.4,
+        "notes": [
+          { "pitch": "C2", "start": 0, "duration": 20 },
+          { "pitch": "C#2", "start": 0, "duration": 20 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "kick", "position": 0 },
+        { "element": "hihat", "position": 0 }, { "element": "hihat", "position": 2 }, { "element": "hihat", "position": 4 }, { "element": "hihat", "position": 6 },
+        { "element": "hihat", "position": 10 }, { "element": "hihat", "position": 12 }, { "element": "hihat", "position": 14 }, { "element": "hihat", "position": 16 }
+      ]
+    }
+  },
+  "loop": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "grand-piano",
+        "volume": 0.85,
+        "notes": [
+          { "pitch": "C2", "start": 0, "duration": 4 }, { "pitch": "C#2", "start": 0, "duration": 4 }, { "pitch": "F#2", "start": 0, "duration": 4 },
+          { "pitch": "C2", "start": 7, "duration": 4 }, { "pitch": "C#2", "start": 7, "duration": 4 }, { "pitch": "F#2", "start": 7, "duration": 4 },
+          { "pitch": "C2", "start": 14, "duration": 4 }, { "pitch": "C#2", "start": 14, "duration": 4 }, { "pitch": "F#2", "start": 14, "duration": 4 },
+          { "pitch": "C2", "start": 21, "duration": 4 }, { "pitch": "C#2", "start": 21, "duration": 4 }, { "pitch": "F#2", "start": 21, "duration": 4 },
+          { "pitch": "C2", "start": 28, "duration": 4 }, { "pitch": "C#2", "start": 28, "duration": 4 }, { "pitch": "F#2", "start": 28, "duration": 4 },
+          { "pitch": "C2", "start": 35, "duration": 4 }, { "pitch": "C#2", "start": 35, "duration": 4 }, { "pitch": "F#2", "start": 35, "duration": 4 },
+          { "pitch": "C2", "start": 42, "duration": 4 }, { "pitch": "C#2", "start": 42, "duration": 4 }, { "pitch": "F#2", "start": 42, "duration": 4 },
+          { "pitch": "C2", "start": 49, "duration": 4 }, { "pitch": "C#2", "start": 49, "duration": 4 }, { "pitch": "F#2", "start": 49, "duration": 4 },
+          { "pitch": "C2", "start": 56, "duration": 4 }, { "pitch": "C#2", "start": 56, "duration": 4 }, { "pitch": "F#2", "start": 56, "duration": 4 },
+          { "pitch": "C2", "start": 63, "duration": 4 }, { "pitch": "C#2", "start": 63, "duration": 4 }, { "pitch": "F#2", "start": 63, "duration": 4 },
+          { "pitch": "C2", "start": 70, "duration": 4 }, { "pitch": "C#2", "start": 70, "duration": 4 }, { "pitch": "F#2", "start": 70, "duration": 4 },
+          { "pitch": "C2", "start": 77, "duration": 4 }, { "pitch": "C#2", "start": 77, "duration": 4 }, { "pitch": "F#2", "start": 77, "duration": 4 }
+        ]
+      },
+      {
+        "instrument": "sine",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "C1", "start": 0, "duration": 3 }, { "pitch": "D#1", "start": 5, "duration": 3 }, { "pitch": "F#1", "start": 10, "duration": 3 }, { "pitch": "A1", "start": 15, "duration": 3 },
+          { "pitch": "C1", "start": 20, "duration": 3 }, { "pitch": "D#1", "start": 25, "duration": 3 }, { "pitch": "F#1", "start": 30, "duration": 3 }, { "pitch": "A1", "start": 35, "duration": 3 },
+          { "pitch": "C1", "start": 40, "duration": 3 }, { "pitch": "D#1", "start": 45, "duration": 3 }, { "pitch": "F#1", "start": 50, "duration": 3 }, { "pitch": "A1", "start": 55, "duration": 3 },
+          { "pitch": "C1", "start": 60, "duration": 3 }, { "pitch": "D#1", "start": 65, "duration": 3 }, { "pitch": "F#1", "start": 70, "duration": 3 }, { "pitch": "A1", "start": 75, "duration": 3 }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.75,
+        "notes": [
+          { "pitch": "D1", "start": 0, "duration": 4 }, { "pitch": "D1", "start": 9, "duration": 4 },
+          { "pitch": "D1", "start": 18, "duration": 4 }, { "pitch": "D1", "start": 27, "duration": 4 },
+          { "pitch": "D1", "start": 36, "duration": 4 }, { "pitch": "D1", "start": 45, "duration": 4 },
+          { "pitch": "D1", "start": 54, "duration": 4 }, { "pitch": "D1", "start": 63, "duration": 4 },
+          { "pitch": "D1", "start": 72, "duration": 4 }
+        ]
+      },
+      {
+        "instrument": "/audio/samples/MadMess_V1.8.sf2",
+        "volume": 0.6,
+        "notes": [
+          { "pitch": "E3", "start": 0, "duration": 2 }, { "pitch": "D#3", "start": 3, "duration": 2 }, { "pitch": "D3", "start": 6, "duration": 2 }, { "pitch": "C#3", "start": 9, "duration": 2 },
+          { "pitch": "C3", "start": 12, "duration": 2 }, { "pitch": "B2", "start": 15, "duration": 2 }, { "pitch": "A#2", "start": 18, "duration": 2 }, { "pitch": "A2", "start": 21, "duration": 2 },
+          { "pitch": "G#2", "start": 24, "duration": 2 }, { "pitch": "G2", "start": 27, "duration": 2 }, { "pitch": "F#2", "start": 30, "duration": 2 }, { "pitch": "F2", "start": 33, "duration": 2 },
+          { "pitch": "E2", "start": 36, "duration": 2 }, { "pitch": "D#2", "start": 39, "duration": 2 }, { "pitch": "D2", "start": 42, "duration": 2 }, { "pitch": "C#2", "start": 45, "duration": 2 },
+          { "pitch": "C2", "start": 48, "duration": 2 }, { "pitch": "B1", "start": 51, "duration": 2 }, { "pitch": "A#1", "start": 54, "duration": 2 }, { "pitch": "A1", "start": 57, "duration": 2 },
+          { "pitch": "G#1", "start": 60, "duration": 2 }, { "pitch": "G1", "start": 63, "duration": 2 }, { "pitch": "F#1", "start": 66, "duration": 2 }, { "pitch": "F1", "start": 69, "duration": 2 },
+          { "pitch": "E1", "start": 72, "duration": 2 }, { "pitch": "D#1", "start": 75, "duration": 2 }, { "pitch": "D1", "start": 78, "duration": 2 }
+        ]
+      },
+      {
+        "instrument": "retro-choir",
+        "volume": 0.45,
+        "notes": [
+          { "pitch": "C2", "start": 0, "duration": 80 },
+          { "pitch": "C#2", "start": 0, "duration": 80 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "kick", "position": 0 }, { "element": "kick", "position": 8 }, { "element": "kick", "position": 14 },
+        { "element": "kick", "position": 20 }, { "element": "kick", "position": 28 }, { "element": "kick", "position": 34 },
+        { "element": "kick", "position": 40 }, { "element": "kick", "position": 48 }, { "element": "kick", "position": 54 },
+        { "element": "kick", "position": 60 }, { "element": "kick", "position": 68 }, { "element": "kick", "position": 74 },
+        
+        { "element": "rim", "position": 12 }, { "element": "rim", "position": 19 },
+        { "element": "rim", "position": 32 }, { "element": "rim", "position": 39 },
+        { "element": "rim", "position": 52 }, { "element": "rim", "position": 59 },
+        { "element": "rim", "position": 72 }, { "element": "rim", "position": 79 },
+        
+        { "element": "hihat", "position": 0 }, { "element": "hihat", "position": 2 }, { "element": "hihat", "position": 4 }, { "element": "hihat", "position": 6 },
+        { "element": "hihat", "position": 10 }, { "element": "hihat", "position": 12 }, { "element": "hihat", "position": 14 }, { "element": "hihat", "position": 16 },
+        { "element": "hihat", "position": 20 }, { "element": "hihat", "position": 22 }, { "element": "hihat", "position": 24 }, { "element": "hihat", "position": 26 },
+        { "element": "hihat", "position": 30 }, { "element": "hihat", "position": 32 }, { "element": "hihat", "position": 34 }, { "element": "hihat", "position": 36 },
+        { "element": "hihat", "position": 40 }, { "element": "hihat", "position": 42 }, { "element": "hihat", "position": 44 }, { "element": "hihat", "position": 46 },
+        { "element": "hihat", "position": 50 }, { "element": "hihat", "position": 52 }, { "element": "hihat", "position": 54 }, { "element": "hihat", "position": 56 },
+        { "element": "hihat", "position": 60 }, { "element": "hihat", "position": 62 }, { "element": "hihat", "position": 64 }, { "element": "hihat", "position": 66 },
+        { "element": "hihat", "position": 70 }, { "element": "hihat", "position": 72 }, { "element": "hihat", "position": 74 }, { "element": "hihat", "position": 76 }
+      ]
+    }
+  },
+  "outro": {
+    "barCount": 1,
+    "instrumentLines": [
+      {
+        "instrument": "sine",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "C0", "start": 0, "duration": 20 }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.8,
+        "notes": [
+          { "pitch": "C1", "start": 0, "duration": 4 }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        { "element": "kick", "position": 0 }
+      ]
+    }
+  }
+}
