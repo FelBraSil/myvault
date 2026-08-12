@@ -286,5 +286,29 @@
     "name": "Yd - ObservingTheStar",
     "type": "audio",
     "url": "audio/Yd%20-%20ObservingTheStar.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-21",
+    "name": "Juhani Junkala - 1. Stage 1",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%201.%20Stage%201.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-22",
+    "name": "Juhani Junkala - 2. Stage 2",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%202.%20Stage%202.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-23",
+    "name": "Juhani Junkala - 3. Boss Fight",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%203.%20Boss%20Fight.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-24",
+    "name": "Juhani Junkala - 4. Stage Select",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%204.%20Stage%20Select.ogg"
   }
 ]
