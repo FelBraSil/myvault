@@ -226,5 +226,35 @@
     "name": "Electroparadise",
     "type": "loop",
     "url": "loops/Electroparadise.lsong"
+  },
+  {
+    "id": "felbrasil-vault-audio-11",
+    "name": "Juhani Junkala - Ending",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Ending.wav"
+  },
+  {
+    "id": "felbrasil-vault-audio-12",
+    "name": "Juhani Junkala - Level 1",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Level%201.wav"
+  },
+  {
+    "id": "felbrasil-vault-audio-13",
+    "name": "Juhani Junkala - Level 2",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Level%202.wav"
+  },
+  {
+    "id": "felbrasil-vault-audio-14",
+    "name": "Juhani Junkala - Level 3",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Level%203.wav"
+  },
+  {
+    "id": "felbrasil-vault-audio-15",
+    "name": "Juhani Junkala - Title Screen",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%20-%20Title%20Screen.wav"
   }
 ]
