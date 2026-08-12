@@ -1,0 +1,250 @@
+{
+  "timeSignature": 4,
+  "tempo": 50,
+  "volume": 0.3,
+  "pitchShift": 0.9,
+  "reverb": 0.85,
+  "intro": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "sine",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.7,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 16,
+            "duration": 16
+          },
+          {
+            "pitch": -5,
+            "start": 48,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "custom:inst_97svonj",
+        "volume": 0.4,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "timpani",
+          "position": 0
+        },
+        {
+          "element": "warDrum",
+          "position": 48
+        }
+      ]
+    },
+    "sfxLine": {
+      "hits": []
+    }
+  },
+  "loop": {
+    "barCount": 16,
+    "instrumentLines": [
+      {
+        "instrument": "sine",
+        "volume": 0.5,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 128
+          },
+          {
+            "pitch": -13,
+            "start": 128,
+            "duration": 128
+          }
+        ]
+      },
+      {
+        "instrument": "custom:inst_97svonj",
+        "volume": 0.35,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 256
+          }
+        ]
+      },
+      {
+        "instrument": "choir",
+        "volume": 0.25,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 0,
+            "duration": 64
+          },
+          {
+            "pitch": 1,
+            "start": 64,
+            "duration": 64
+          },
+          {
+            "pitch": 0,
+            "start": 128,
+            "duration": 64
+          },
+          {
+            "pitch": -1,
+            "start": 192,
+            "duration": 64
+          }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.75,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 32,
+            "duration": 16
+          },
+          {
+            "pitch": -6,
+            "start": 104,
+            "duration": 16
+          },
+          {
+            "pitch": -5,
+            "start": 160,
+            "duration": 16
+          },
+          {
+            "pitch": 1,
+            "start": 216,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "noise",
+        "volume": 0.15,
+        "notes": [
+          {
+            "pitch": 0,
+            "start": 48,
+            "duration": 32
+          },
+          {
+            "pitch": 0,
+            "start": 176,
+            "duration": 32
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "timpani",
+          "position": 0
+        },
+        {
+          "element": "warDrum",
+          "position": 72
+        },
+        {
+          "element": "timpani",
+          "position": 128
+        },
+        {
+          "element": "timpani",
+          "position": 192
+        },
+        {
+          "element": "warDrum",
+          "position": 230
+        }
+      ]
+    },
+    "sfxLine": {
+      "hits": []
+    }
+  },
+  "outro": {
+    "barCount": 4,
+    "instrumentLines": [
+      {
+        "instrument": "sine",
+        "volume": 0.4,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      },
+      {
+        "instrument": "pipe-hit",
+        "volume": 0.6,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "instrument": "custom:inst_97svonj",
+        "volume": 0.3,
+        "notes": [
+          {
+            "pitch": -12,
+            "start": 0,
+            "duration": 64
+          }
+        ]
+      }
+    ],
+    "drumLine": {
+      "hits": [
+        {
+          "element": "timpani",
+          "position": 0
+        }
+      ]
+    },
+    "sfxLine": {
+      "hits": []
+    }
+  },
+  "effects": {
+    "reverb": {
+      "mix": 0.85
+    },
+    "noise": {
+      "enabled": true,
+      "level": 0.25
+    }
+  }
+}

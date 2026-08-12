@@ -196,5 +196,11 @@
     "name": "Uncanny",
     "type": "loop",
     "url": "loops/Uncanny.lsong"
+  },
+  {
+    "id": "felbrasil-vault-loop-24",
+    "name": "Purgatory",
+    "type": "loop",
+    "url": "loops/Purgatory.lsong"
   }
 ]
