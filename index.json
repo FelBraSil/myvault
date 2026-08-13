@@ -364,5 +364,29 @@
     "name": "extenz - Piano Loop",
     "type": "audio",
     "url": "audio/extenz%20-%20Piano%20Loop.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-34",
+    "name": "Juhani Junkala 1 - Home Juhani Junkala ",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%201%20-%20Home%20Juhani%20Junkala%20.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-35",
+    "name": "Juhani Junkala 2 - Where Time Stands Still",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%202%20-%20Where%20Time%20Stands%20Still.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-36",
+    "name": "Juhani Junkala 3 - Sunshine Coast",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%203%20-%20Sunshine%20Coast.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-37",
+    "name": "Juhani Junkala 4 - Bazaar",
+    "type": "audio",
+    "url": "audio/Juhani%20Junkala%204%20-%20Bazaar.ogg"
   }
 ]
