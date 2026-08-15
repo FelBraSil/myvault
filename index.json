@@ -3,61 +3,61 @@
     "id": "felbrasil-vault-audio-1",
     "name": "Dancing In The Chill",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Chill.mp3"
+    "url": "audio/Dancing%20In%20The%20Chill.ogg"
   },
   {
     "id": "felbrasil-vault-audio-2",
     "name": "Dancing In The Fight",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Fight.mp3"
+    "url": "audio/Dancing%20In%20The%20Fight.ogg"
   },
   {
     "id": "felbrasil-vault-audio-3",
     "name": "Dancing In Celebration",
     "type": "audio",
-    "url": "audio/Dancing%20In%20Celebration.mp3"
+    "url": "audio/Dancing%20In%20Celebration.ogg"
   },
   {
     "id": "felbrasil-vault-audio-4",
     "name": "Dancing In The Dark",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Dark.mp3"
+    "url": "audio/Dancing%20In%20The%20Dark.ogg"
   },
   {
     "id": "felbrasil-vault-audio-5",
     "name": "Dancing In The Lounge",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Lounge.mp3"
+    "url": "audio/Dancing%20In%20The%20Lounge.ogg"
   },
   {
     "id": "felbrasil-vault-audio-6",
     "name": "Dancing In The Crypt",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Crypt.mp3"
+    "url": "audio/Dancing%20In%20The%20Crypt.ogg"
   },
   {
     "id": "felbrasil-vault-audio-7",
     "name": "Dancing In The Empty Hall",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Empty%20Hall.mp3"
+    "url": "audio/Dancing%20In%20The%20Empty%20Hall.ogg"
   },
   {
     "id": "felbrasil-vault-audio-8",
     "name": "Dancing In The Solitude",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Solitude.mp3"
+    "url": "audio/Dancing%20In%20The%20Solitude.ogg"
   },
   {
     "id": "felbrasil-vault-audio-9",
     "name": "Dancing In The Tombs",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Tombs.mp3"
+    "url": "audio/Dancing%20In%20The%20Tombs.ogg"
   },
   {
     "id": "felbrasil-vault-audio-10",
     "name": "Dancing In The Victory",
     "type": "audio",
-    "url": "audio/Dancing%20In%20The%20Victory.mp3"
+    "url": "audio/Dancing%20In%20The%20Victory.ogg"
   },
   {
     "id": "felbrasil-vault-loop-1",
@@ -231,55 +231,55 @@
     "id": "felbrasil-vault-audio-11",
     "name": "Juhani Junkala - Ending",
     "type": "audio",
-    "url": "audio/Juhani%20Junkala%20-%20Ending.wav"
+    "url": "audio/Juhani%20Junkala%20-%20Ending.ogg"
   },
   {
     "id": "felbrasil-vault-audio-12",
     "name": "Juhani Junkala - Level 1",
     "type": "audio",
-    "url": "audio/Juhani%20Junkala%20-%20Level%201.wav"
+    "url": "audio/Juhani%20Junkala%20-%20Level%201.ogg"
   },
   {
     "id": "felbrasil-vault-audio-13",
     "name": "Juhani Junkala - Level 2",
     "type": "audio",
-    "url": "audio/Juhani%20Junkala%20-%20Level%202.wav"
+    "url": "audio/Juhani%20Junkala%20-%20Level%202.ogg"
   },
   {
     "id": "felbrasil-vault-audio-14",
     "name": "Juhani Junkala - Level 3",
     "type": "audio",
-    "url": "audio/Juhani%20Junkala%20-%20Level%203.wav"
+    "url": "audio/Juhani%20Junkala%20-%20Level%203.ogg"
   },
   {
     "id": "felbrasil-vault-audio-15",
     "name": "Juhani Junkala - Title Screen",
     "type": "audio",
-    "url": "audio/Juhani%20Junkala%20-%20Title%20Screen.wav"
+    "url": "audio/Juhani%20Junkala%20-%20Title%20Screen.ogg"
   },
   {
     "id": "felbrasil-vault-audio-16",
     "name": "pixelsphere - cave",
     "type": "audio",
-    "url": "audio/pixelsphere%20-%20cave.mp3"
+    "url": "audio/pixelsphere%20-%20cave.ogg"
   },
   {
     "id": "felbrasil-vault-audio-17",
     "name": "pixelsphere - TownTheme",
     "type": "audio",
-    "url": "audio/pixelsphere%20-%20TownTheme.mp3"
+    "url": "audio/pixelsphere%20-%20TownTheme.ogg"
   },
   {
     "id": "felbrasil-vault-audio-18",
     "name": "pixelsphere - battleThemeA",
     "type": "audio",
-    "url": "audio/pixelsphere%20-%20battleThemeA.mp3"
+    "url": "audio/pixelsphere%20-%20battleThemeA.ogg"
   },
   {
     "id": "felbrasil-vault-audio-19",
     "name": "pauliuw - the_field_of_dreams",
     "type": "audio",
-    "url": "audio/pauliuw%20-%20the_field_of_dreams.mp3"
+    "url": "audio/pauliuw%20-%20the_field_of_dreams.ogg"
   },
   {
     "id": "felbrasil-vault-audio-20",
@@ -357,7 +357,7 @@
     "id": "felbrasil-vault-audio-32",
     "name": "omfgdude - ChillLofiR_0",
     "type": "audio",
-    "url": "audio/omfgdude%20-%20ChillLofiR_0.mp3"
+    "url": "audio/omfgdude%20-%20ChillLofiR_0.ogg"
   },
   {
     "id": "felbrasil-vault-audio-33",
