@@ -424,5 +424,65 @@
     "name": "Juhani Junkala - Calm6 - Innocence",
     "type": "audio",
     "url": "audio/Juhani%20Junkala%20-%20Calm6%20-%20Innocence.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-44",
+    "name": "Alexander Ehlers - through_the_sewers_1766bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20through_the_sewers_1766bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-45",
+    "name": "Alexander Ehlers - the_casino_120bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20the_casino_120bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-46",
+    "name": "Alexander Ehlers - system_overload_154bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20system_overload_154bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-47",
+    "name": "Alexander Ehlers - strange_experiments_80bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20strange_experiments_80bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-48",
+    "name": "Alexander Ehlers - night_club_chill_100bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20night_club_chill_100bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-49",
+    "name": "Alexander Ehlers - new_factory_129bpm_0",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20new_factory_129bpm_0.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-50",
+    "name": "Alexander Ehlers - jumping_cyborg_110bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20jumping_cyborg_110bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-51",
+    "name": "Alexander Ehlers - electric_stream_180bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20electric_stream_180bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-52",
+    "name": "Alexander Ehlers - ai_fight_120bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20ai_fight_120bpm.ogg"
+  },
+  {
+    "id": "felbrasil-vault-audio-53",
+    "name": "Alexander Ehlers - welcome_mix_110bpm",
+    "type": "audio",
+    "url": "audio/Alexander%20Ehlers%20-%20welcome_mix_110bpm.ogg"
   }
 ]
